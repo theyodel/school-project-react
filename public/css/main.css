@@ -1,0 +1,189 @@
+:root {
+  --primary: #0058cc;
+  --school-blue: #0058cc;
+}
+
+.h1-name {
+  text-align: center;
+  color: black;
+}
+
+.h2-name {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 0.25rem;
+  color: #3f3f3f;
+  size: 1.5rem;
+  font-weight: 666;
+}
+
+.div-name {
+  margin-top: 8.5rem;
+  margin-bottom: 8.5rem;
+  padding: auto;
+  background-color: transparent;
+  color: black;
+}
+
+.name-img {
+  margin-top: -1.3rem;
+  float: left;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 8.2rem;
+  height: 8.7rem;
+}
+
+.map-grid {
+  display: grid;
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+}
+
+.hr-main {
+  margin-top: 3rem;
+  width: 97.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.a-map-main {
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.3s;
+  color: black;
+  text-decoration: none;
+}
+
+.a-map-thread {
+  cursor: pointer;
+  margin-left: 1.2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: 0.3s;
+  color: black;
+  text-decoration: none;
+}
+
+.a-map-main:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.a-map-thread:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.div-path {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  background-color: transparent;
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.a-path {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.a-path-last {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.path-dot {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.page-title {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.page-text {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: black;
+}
+
+.page-content {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  background-color: transparent;
+  display: grid;
+}
+
+.page-link {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.7rem;
+  font-weight: 400;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.page-block {
+  display: flex;
+}
+
+.page-content br {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding-top: 1rem;
+}
+
+.page-link:hover {
+  color: #003274;
+}
+
+.page-link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s;
+}
+
+.page-link:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: #003274;
+  transition: width 0.3s;
+}
+
+.nav-logo {
+  width: 2.7rem;
+  height: 2.7rem;
+}

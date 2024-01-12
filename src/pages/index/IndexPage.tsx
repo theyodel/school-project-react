@@ -29,16 +29,16 @@ function IndexPage() {
                   <a href="/site-map">Карта Сайта</a>
                 </li>
                 <li>
-                  <a href="/">Обращения Граждан</a>
+                  <a href="/feedback">Обращения Граждан</a>
                 </li>
                 <li>
-                  <a href="/">FAQ</a>
+                  <a href="/feedback/faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="/">Школьное Питание</a>
+                  <a href="/school-food">Школьное Питание</a>
                 </li>
                 <li>
-                  <a href="/">Полезные Ссылки</a>
+                  <a href="/helpful-links">Полезные Ссылки</a>
                 </li>
               </ul>
             </nav>

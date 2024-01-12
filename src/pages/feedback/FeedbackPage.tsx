@@ -1,4 +1,6 @@
-function Navbar() {
+import Footer from "../../components/Footer";
+
+function FeedbackPage() {
   return (
     <>
       <header className="header">
@@ -25,7 +27,9 @@ function Navbar() {
                   <a href="/site-map">Карта Сайта</a>
                 </li>
                 <li>
-                  <a href="/feedback">Обращения Граждан</a>
+                  <a href="/feedback" className="active">
+                    Обращения Граждан
+                  </a>
                 </li>
                 <li>
                   <a href="/feedback/faq">FAQ</a>
@@ -41,8 +45,34 @@ function Navbar() {
           </div>
         </div>
       </header>
+
+      <main>
+        <div className="div-name">
+          <img className="name-img" src="/public/logo.png" alt="logo" />
+          <p className="h2-name">
+            Муниципальное автономное общеобразовательное учреждение
+            <h2 className="h1-name">
+              «Средняя общеобразовательная школа № 6 с углубленным изучением
+              иностранных языков»
+            </h2>
+          </p>
+        </div>
+        <hr className="hr-main" />
+
+        <div className="div-path">
+          <a href="/" className="a-path">
+            Главная
+          </a>
+          <a className="path-dot">&middot;</a>
+          <a href="/site-map" className="a-path-last">
+            Обращения граждан
+          </a>
+        </div>
+
+        <Footer />
+      </main>
     </>
   );
 }
 
-export default Navbar;
+export default FeedbackPage;

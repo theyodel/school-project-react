@@ -13,26 +13,23 @@ function Footer() {
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/map.html">Карта Сайта</a>
+                  <a href="/site-map">Карта Сайта</a>
                 </li>
                 <li>
-                  <a href="/feedback.html">Обращения Граждан</a>
+                  <a href="/feedback">Обращения Граждан</a>
                 </li>
               </ul>
             </div>
             <div className="footer-col-1">
               <ul>
                 <li>
-                  <a href="/faq.html">FAQ</a>
+                  <a href="/feedback/faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="/pitanie.html">Школьное Питание</a>
+                  <a href="/school-food">Школьное Питание</a>
                 </li>
                 <li>
-                  <a href="/links.html">Полезные Ссылки</a>
-                </li>
-                <li>
-                  <a href="/sputnik.html">Спутник</a>
+                  <a href="/helpful-links">Полезные Ссылки</a>
                 </li>
               </ul>
             </div>

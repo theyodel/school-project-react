@@ -29,16 +29,16 @@ function MapPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="/">Обращения Граждан</a>
+                  <a href="/feedback">Обращения Граждан</a>
                 </li>
                 <li>
-                  <a href="/">FAQ</a>
+                  <a href="/feedback/faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="/">Школьное Питание</a>
+                  <a href="/school-food">Школьное Питание</a>
                 </li>
                 <li>
-                  <a href="/">Полезные Ссылки</a>
+                  <a href="/helpful-links">Полезные Ссылки</a>
                 </li>
               </ul>
             </nav>
@@ -63,7 +63,7 @@ function MapPage() {
           <a href="/" className="a-path">
             Главная
           </a>
-          <a className="path-dot">·</a>
+          <a className="path-dot">&middot;</a>
           <a href="/site-map" className="a-path-last">
             Карта Сайта
           </a>
@@ -81,9 +81,11 @@ function MapPage() {
             Food
           </a>
           <a className="a-map-main">Обращения Граждан</a>
-          <a className="a-map-main">Часто задаваемые вопросы (FAQ)</a>
+          <a className="a-map-main" href="/feedback/faq">
+            Часто задаваемые вопросы (FAQ)
+          </a>
           <a className="a-map-main">Школьное Питание</a>
-          <a href="/links.html" className="a-map-main">
+          <a href="/helpful-links" className="a-map-main">
             Полезные Ссылки
           </a>
           <a className="a-map-main">Спутник</a>

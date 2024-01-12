@@ -9,11 +9,16 @@ import "../public/css/main.css";
 
 // Pages
 import IndexPage from "./pages/index/IndexPage.tsx";
+import MapPage from "./pages/map/MapPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <IndexPage />,
+  },
+  {
+    path: "/site-map",
+    element: <MapPage />,
   },
 ]);
 

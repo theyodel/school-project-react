@@ -26,7 +26,7 @@ function IndexPage() {
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/">Карта Сайта</a>
+                  <a href="/site-map">Карта Сайта</a>
                 </li>
                 <li>
                   <a href="/">Обращения Граждан</a>

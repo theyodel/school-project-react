@@ -9,9 +9,9 @@
 - Использовал `components` через кастомные typescript скрипты:
 
 ```ts
-NavBar.tsx                                       // (пример)
+Navbar.tsx                                       // (пример)
 ------------------------------------------------------------
-function  NavBar() {
+function  Navbar() {
 	return (
 		<>
 			content
@@ -19,5 +19,5 @@ function  NavBar() {
 	);
 }
 
-export  default  NavBar;
+export  default  Navbar;
 ```

@@ -84,6 +84,7 @@
   background-color: transparent;
   font-size: 1.25rem;
   display: flex;
+  text-transform: capitalize;
 }
 
 .a-path {
@@ -127,6 +128,7 @@
 .page-content {
   margin-top: 1.5rem;
   margin-left: 3rem;
+  margin-right: 3rem;
   background-color: transparent;
   display: grid;
 }
@@ -181,4 +183,16 @@
   height: 2px;
   background-color: #003274;
   transition: width 0.3s;
+}
+
+.page-link[href*="https"] {
+  background: url("/public/link.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+.page-link[href*="https"]:hover {
+  background: url("/public/link-hover.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
 }

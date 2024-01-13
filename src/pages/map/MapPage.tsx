@@ -3,6 +3,8 @@ import Footer from "../../components/Footer";
 function MapPage() {
   return (
     <>
+      <title>Карта Сайта</title>
+
       <header className="header">
         <div className="container">
           <div className="row align-items-center justify-content-between">
@@ -80,7 +82,9 @@ function MapPage() {
           <a className="a-map-main" href="https://foodmonitoring.ru/22393/food">
             Food
           </a>
-          <a className="a-map-main">Обращения Граждан</a>
+          <a className="a-map-main" href="/feedback">
+            Обращения Граждан
+          </a>
           <a className="a-map-main" href="/feedback/faq">
             Часто задаваемые вопросы (FAQ)
           </a>

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
-// Css
+// CSS
 import "../public/css/style.css";
 import "../public/css/main.css";
 
@@ -14,6 +14,7 @@ import LinksPage from "./pages/helpful-links/LinksPage.tsx";
 import FeedbackPage from "./pages/feedback/FeedbackPage.tsx";
 import FaqPage from "./pages/feedback/faq/FaqPage.tsx";
 import FeedbackStatusPage from "./pages/feedback/status/FeedbackStatusPage.tsx";
+import SchoolfoodPage from "./pages/school-food/SchoolfoodPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/feedback/status",
     element: <FeedbackStatusPage />,
+  },
+  {
+    path: "/school-food",
+    element: <SchoolfoodPage />,
   },
 ]);
 

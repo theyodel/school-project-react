@@ -1,9 +1,9 @@
 import Footer from "../../components/Footer";
 
-function FeedbackPage() {
+function SchoolfoodPage() {
   return (
     <>
-      <title>Обращения Граждан</title>
+      <title>Школьное Питание</title>
 
       <header className="header">
         <div className="container">
@@ -29,15 +29,15 @@ function FeedbackPage() {
                   <a href="/site-map">Карта Сайта</a>
                 </li>
                 <li>
-                  <a href="/feedback" className="active">
-                    Обращения Граждан
-                  </a>
+                  <a href="/feedback">Обращения Граждан</a>
                 </li>
                 <li>
                   <a href="/feedback/faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <a href="/school-food" className="active">
+                    Школьное Питание
+                  </a>
                 </li>
                 <li>
                   <a href="/helpful-links">Полезные Ссылки</a>
@@ -67,7 +67,7 @@ function FeedbackPage() {
           </a>
           <a className="path-dot">&middot;</a>
           <a href="/site-map" className="a-path-last">
-            Обращения граждан
+            Школьное Питание
           </a>
         </div>
 
@@ -77,4 +77,4 @@ function FeedbackPage() {
   );
 }
 
-export default FeedbackPage;
+export default SchoolfoodPage;

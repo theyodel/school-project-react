@@ -3,6 +3,8 @@ import Footer from "../../components/Footer";
 function LinksPage() {
   return (
     <>
+      <title>Полезные Ссылки</title>
+
       <header className="header">
         <div className="container">
           <div className="row align-items-center justify-content-between">

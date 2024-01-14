@@ -59,6 +59,29 @@ function IndexPage() {
         </div>
         <hr className="hr-main" />
 
+        <div className="div-path">
+          <a href="/" className="a-path a-path-last">
+            Главная
+          </a>
+        </div>
+
+        <div className="page-content">
+          <h1 className="page-title">Главная Страница</h1>
+          <br />
+          <br />
+          <p className="page-text bold">Вы находитесь на сайте МАОУ «СОШ №6»</p>
+          <br />
+          <p className="page-text">
+            Школа № 6 открыта 1 сентября 1980 года как средняя
+            общеобразовательная. Образовательная организация структурных
+            подразделений (общежитий, интерната) не имеет.
+          </p>
+          <br />
+          <br />
+          <p className="page-comment">Фотографии МАОУ «СОШ №6»:</p>
+          <img src="/public/img1.jpg" alt="фотография" className="page-img" />
+        </div>
+
         <Footer />
       </main>
     </>

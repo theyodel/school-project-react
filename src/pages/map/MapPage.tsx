@@ -92,7 +92,9 @@ function MapPage() {
           <a href="/helpful-links" className="a-map-main">
             Полезные Ссылки
           </a>
-          <a className="a-map-main">Спутник</a>
+          <a className="a-map-main" href="/sputnik">
+            Спутник
+          </a>
 
           <a className="a-map-main">Сведения об образовательной организации</a>
           <a className="a-map-thread">Основные сведения</a>

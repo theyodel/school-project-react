@@ -53,6 +53,8 @@ function Footer() {
             </div>
           </div>
         </div>
+        <hr className="hr-footer" />
+        <h5 className="footer-copyright">© Заварзин А.В., 2023-2024</h5>
       </footer>
     </>
   );

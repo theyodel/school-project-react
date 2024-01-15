@@ -54,6 +54,7 @@ function Footer() {
           </div>
         </div>
         <hr className="hr-footer" />
+        <h4 className="footer-copyrignt">made with ❤ by yodel</h4>
         <h5 className="footer-copyright">© Заварзин А.В., 2023-2024</h5>
       </footer>
     </>

@@ -2,7 +2,7 @@
 
 - Предмет проекта: Информатика
 - Продукт проекта: Новый дизайн сайта школы
-- Класс: 10
+- Класс: 10 (2023-2024 учебные года)
 - ЯП и Фреймворки: ![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)&nbsp;
 ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;

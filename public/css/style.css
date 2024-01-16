@@ -68,7 +68,7 @@ header ul {
   padding: 15px 0;
   color: rgb(0, 0, 0);
   text-transform: capitalize;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .header .nav ul li a:hover,
 .header .nav ul li a.active {
@@ -92,7 +92,7 @@ header ul {
   align-items: center;
   justify-content: center;
   margin-right: 15px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .nav-toggler span {
   display: block;
@@ -211,7 +211,7 @@ header ul {
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .footer-col-1 .social-links a:hover {
   color: #24262b;
@@ -244,7 +244,7 @@ header ul {
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .footer-col-2 .social-links a:hover {
   color: #24262b;
@@ -272,7 +272,12 @@ header ul {
 
 .footer-copyright {
   color: #ffffff;
-
   margin-top: 2rem;
   text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }

@@ -54,7 +54,9 @@ function Footer() {
           </div>
         </div>
         <hr className="hr-footer" />
-        <h5 className="footer-copyright">© Заварзин А.В., 2023-2024</h5>
+        <p className="footer-copyright">
+          <h5>© Заварзин А.В., 2023-2024</h5>
+        </p>
       </footer>
     </>
   );

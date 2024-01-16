@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 // CSS
 import "../public/css/style.css";
 import "../public/css/main.css";
+import "../public/css/form.css";
 
 // Pages
 import IndexPage from "./pages/index/IndexPage.tsx";

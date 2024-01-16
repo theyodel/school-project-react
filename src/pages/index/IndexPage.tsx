@@ -70,16 +70,103 @@ function IndexPage() {
           <br />
           <br />
           <p className="page-text bold">Вы находитесь на сайте МАОУ «СОШ №6»</p>
-          <br />
+
           <p className="page-text">
-            Школа № 6 открыта 1 сентября 1980 года как средняя
-            общеобразовательная. Образовательная организация структурных
-            подразделений (общежитий, интерната) не имеет.
+            МАОУ Средняя общеобразовательная школа № 6 с углубленным изучением
+            иностранных языков в Северодвинске является одним из ведущих
+            образовательных учреждений города. Продолжает показывать по
+            сегодняшний день отличные результаты в Северодвинске и обеспечении
+            оптимальных условий для самореализации и развития учащихся.
           </p>
           <br />
           <br />
-          <p className="page-comment">Фотографии МАОУ «СОШ №6»:</p>
-          <img src="/public/img1.jpg" alt="фотография" className="page-img" />
+
+          <br />
+          <br />
+          <p className="page-text bold">Новости и События</p>
+
+          <br />
+
+          <div className="row">
+            <div className="col-3">
+              <div className="card-place">
+                <div className="card">
+                  <img src="public/news-1.jpg" alt="Avatar" />
+                  <div className="card-container">
+                    <h4>
+                      <b>Всемирный день снеговика.</b>
+                    </h4>
+                    <div className="div-description">
+                      <p className="card-description">
+                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
+                      </p>
+                    </div>
+                    <div className="card-footer">
+                      <p className="card-category">
+                        <abbr data-title="Категория: Новости">Новости</abbr>
+                      </p>
+                      <p className="card-dot">|</p>
+                      <p className="card-date">
+                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="card-place">
+                <div className="card">
+                  <img src="public/news-1.jpg" alt="Avatar" />
+                  <div className="card-container">
+                    <h4>
+                      <b>Всемирный день снеговика.</b>
+                    </h4>
+                    <div className="div-description">
+                      <p className="card-description">
+                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
+                      </p>
+                    </div>
+                    <div className="card-footer">
+                      <p className="card-category">
+                        <abbr data-title="Категория: События">События</abbr>
+                      </p>
+                      <p className="card-dot">|</p>
+                      <p className="card-date">
+                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="card-place">
+                <div className="card">
+                  <img src="public/news-1.jpg" alt="Avatar" />
+                  <div className="card-container">
+                    <h4>
+                      <b>Всемирный день снеговика.</b>
+                    </h4>
+                    <div className="div-description">
+                      <p className="card-description">
+                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
+                      </p>
+                    </div>
+                    <div className="card-footer">
+                      <p className="card-category">
+                        <abbr data-title="Категория: Новости">Новости</abbr>
+                      </p>
+                      <p className="card-dot">|</p>
+                      <p className="card-date">
+                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <Footer />

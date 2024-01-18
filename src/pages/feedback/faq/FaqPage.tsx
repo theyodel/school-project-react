@@ -5,9 +5,9 @@ function FaqPage() {
     <>
       <title>Часто Задаваемые Вопросы</title>
 
-      <header className="header">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
+      <header className="nav-header">
+        <div className="nav-container">
+          <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
                 <img src="/public/logo.png" alt="logo" />
@@ -85,13 +85,13 @@ function FaqPage() {
             1. Обращения, направленные в форме электронного документа через
             официальный сайт, поступают на рассмотрение в [наименование органа]
             и рассматриваются работниками [наименование органа] уполномоченными
-            на то лицами. Орган - государственный орган, терри
+            на то лицами.
           </p>
           <br />
           <p className="page-text">
             2. Обращение, направленное через официальный сайт образовательной
             организации, подлежит обязательной регистрации и рассмотрению в
-            соответствии с требованиями Федерального закона от 02.05.2006 г. N
+            соответствии с требованиями Федерального закона от 02.05.2006 г. №
             59-ФЗ «О порядке рассмотрения обращений граждан Российской
             Федерации».
             <p />
@@ -134,7 +134,11 @@ function FaqPage() {
             <br />
             <p className="page-text">
               9. Гражданин может отслеживать статус зарегистрированного
-              обращения, используя сервис «Проверить статус обращения».
+              обращения, используя сервис «
+              <a href="/feedback/status" className="page-link">
+                Проверить статус обращения
+              </a>
+              ».
             </p>
           </p>
         </div>

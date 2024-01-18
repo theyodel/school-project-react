@@ -3,9 +3,9 @@ import Footer from "../../components/Footer";
 function IndexPage() {
   return (
     <>
-      <header className="header">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
+      <header className="nav-header">
+        <div className="nav-container">
+          <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
                 <img src="/public/logo.png" alt="logo" />
@@ -69,7 +69,9 @@ function IndexPage() {
           <h1 className="page-title">Главная Страница</h1>
           <br />
           <br />
-          <p className="page-text bold">Вы находитесь на сайте МАОУ «СОШ №6»</p>
+          <p className="page-text bold larger">
+            Вы находитесь на сайте МАОУ «СОШ №6»
+          </p>
 
           <p className="page-text">
             МАОУ Средняя общеобразовательная школа № 6 с углубленным изучением
@@ -83,86 +85,61 @@ function IndexPage() {
 
           <br />
           <br />
-          <p className="page-text bold">Новости и События</p>
+          <p className="page-text bold larger">Новости и События</p>
 
-          <br />
+          <div className="cccard__container">
+            <div className="cccard">
+              <img src="/public/news-1.jpg" />
+              <div className="cccard__data">
+                <h3>Title</h3>
+                <p>Some description</p>
+              </div>
+              <div className="card-footer">
+                <p className="card-category">Новости</p>
+                <p className="card-dot">|</p>
+                <p className="card-date">18 янв. 2024</p>
+              </div>
+            </div>
 
-          <div className="row">
-            <div className="col-3">
-              <div className="card-place">
-                <div className="card">
-                  <img src="public/news-1.jpg" alt="Avatar" />
-                  <div className="card-container">
-                    <h4>
-                      <b>Всемирный день снеговика.</b>
-                    </h4>
-                    <div className="div-description">
-                      <p className="card-description">
-                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
-                      </p>
-                    </div>
-                    <div className="card-footer">
-                      <p className="card-category">
-                        <abbr data-title="Категория: Новости">Новости</abbr>
-                      </p>
-                      <p className="card-dot">|</p>
-                      <p className="card-date">
-                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                      </p>
-                    </div>
-                  </div>
+            <div className="cccard__container">
+              <div className="cccard">
+                <img src="/public/news-1.jpg" />
+                <div className="cccard__data">
+                  <h3>Title</h3>
+                  <p>Some description</p>
+                </div>
+                <div className="card-footer">
+                  <p className="card-category">Новости</p>
+                  <p className="card-dot">|</p>
+                  <p className="card-date">18 янв. 2024</p>
                 </div>
               </div>
             </div>
-            <div className="col-3">
-              <div className="card-place">
-                <div className="card">
-                  <img src="public/news-1.jpg" alt="Avatar" />
-                  <div className="card-container">
-                    <h4>
-                      <b>Всемирный день снеговика.</b>
-                    </h4>
-                    <div className="div-description">
-                      <p className="card-description">
-                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
-                      </p>
-                    </div>
-                    <div className="card-footer">
-                      <p className="card-category">
-                        <abbr data-title="Категория: События">События</abbr>
-                      </p>
-                      <p className="card-dot">|</p>
-                      <p className="card-date">
-                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                      </p>
-                    </div>
-                  </div>
+            <div className="cccard__container">
+              <div className="cccard">
+                <img src="/public/news-1.jpg" />
+                <div className="cccard__data">
+                  <h3>Title</h3>
+                  <p>Some description</p>
+                </div>
+                <div className="card-footer">
+                  <p className="card-category">Новости</p>
+                  <p className="card-dot">|</p>
+                  <p className="card-date">18 янв. 2024</p>
                 </div>
               </div>
             </div>
-            <div className="col-3">
-              <div className="card-place">
-                <div className="card">
-                  <img src="public/news-1.jpg" alt="Avatar" />
-                  <div className="card-container">
-                    <h4>
-                      <b>Всемирный день снеговика.</b>
-                    </h4>
-                    <div className="div-description">
-                      <p className="card-description">
-                        Описаниееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееееее
-                      </p>
-                    </div>
-                    <div className="card-footer">
-                      <p className="card-category">
-                        <abbr data-title="Категория: Новости">Новости</abbr>
-                      </p>
-                      <p className="card-dot">|</p>
-                      <p className="card-date">
-                        <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                      </p>
-                    </div>
-                  </div>
+            <div className="cccard__container">
+              <div className="cccard">
+                <img src="/public/news-1.jpg" />
+                <div className="cccard__data">
+                  <h3>Title</h3>
+                  <p>Some description</p>
+                </div>
+                <div className="card-footer">
+                  <p className="card-category">Новости</p>
+                  <p className="card-dot">|</p>
+                  <p className="card-date">18 янв. 2024</p>
                 </div>
               </div>
             </div>

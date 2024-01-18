@@ -229,6 +229,10 @@
   font-weight: bold;
 }
 
+.larger {
+  font-size: 2.5rem;
+}
+
 /* Tables */
 table {
   text-decoration: none;
@@ -267,64 +271,56 @@ tr:nth-child(2n) {
 }
 
 /* Cards */
-.col-3 {
-  height: 100%;
-  width: 33.333%; /* Можно задать любую другую ширину блока */
-  margin: 0.5rem;
-}
-
-.row {
+.cccard__container {
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card {
-  max-width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+.cccard {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.281);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  margin: 20px;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 var(--blue-shadow);
-}
-
-.card-container {
-  padding: 10px 8px;
-}
-
-.card img {
-  width: 350px;
+.cccard img {
+  width: 100%;
   height: 225px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.card-place {
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-  float: left;
+.cccard__data {
+  padding: 16px;
 }
 
-.card-date {
+.cccard__data h3 {
+  font-size: 28px;
+  margin-bottom: 3px;
+}
+
+.cccard__data p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.card-footer {
+  background-color: transparent;
+  font-size: 1.25rem;
+  display: flex;
+  margin-top: -5px;
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
+
+.card-category {
   color: #afafaf;
   font-weight: 300;
   font-size: small;
-}
-
-.div-description {
-  margin-right: 10px;
-}
-
-.card-description {
-  margin-bottom: 0.7rem;
-  overflow-wrap: break-word;
 }
 
 .card-dot {
@@ -341,50 +337,48 @@ tr:nth-child(2n) {
   user-select: none;
 }
 
-.card-category {
+.card-date {
   color: #afafaf;
   font-weight: 300;
   font-size: small;
 }
 
-.card-footer {
-  background-color: transparent;
-  font-size: 1.25rem;
-  display: flex;
-}
-
-.card h4 {
-  margin-bottom: 0.2rem;
-}
-
-@media (max-width: 991px) {
-  .card-place {
-    margin-left: 8px;
-  }
-
-  .f-card-place {
-    margin-left: 8px !important;
-    padding-bottom: 1rem;
-  }
-}
-
 /* Всплывающая инфа (PC only) */
 [data-title] {
   position: relative;
-  cursor: help;
+  cursor: default;
+  overflow: visible !important;
 }
 [data-title]::after {
   content: attr(data-title);
   position: absolute;
   left: 0;
-  top: 1em;
+  top: -3em;
   opacity: 0;
   transition: 0.3s;
   pointer-events: none;
   background: #3314e69a;
   color: #fff;
   padding: 0.5em;
+  overflow: visible !important;
 }
 [data-title]:hover::after {
   opacity: 1;
+  overflow: visible !important;
+}
+
+.need {
+  color: red;
+  float: inline-end;
+}
+
+.end-need {
+  color: red;
+  float: inline-start;
+  margin-right: 0.25rem;
+}
+
+.checkpls {
+  display: flex;
+  margin-right: -0.5rem;
 }

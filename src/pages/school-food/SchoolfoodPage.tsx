@@ -5,9 +5,9 @@ function SchoolfoodPage() {
     <>
       <title>Школьное Питание</title>
 
-      <header className="header">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
+      <header className="nav-header">
+        <div className="nav-container">
+          <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
                 <img src="/public/logo.png" alt="logo" />

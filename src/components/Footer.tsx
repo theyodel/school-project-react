@@ -1,10 +1,10 @@
 function Footer() {
   return (
     <>
-      <footer className="footer">
-        <div className="container">
-          <div className="row">
-            <div className="footer-col-1">
+      <footer className="ffooter">
+        <div className="footer-container">
+          <div className="footer-row">
+            <div className="ffooter-col-1">
               <ul>
                 <li>
                   <a href="/">Главная</a>
@@ -20,7 +20,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="footer-col-1">
+            <div className="ffooter-col-1">
               <ul>
                 <li>
                   <a href="/feedback/faq">FAQ</a>
@@ -33,7 +33,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="footer-col-2">
+            <div className="ffooter-col-2">
               <ul>
                 <li>
                   <a href="https://yandex.ru/maps/-/CDqdRF9a" target="_blank">

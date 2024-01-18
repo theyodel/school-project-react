@@ -22,9 +22,9 @@ function FeedbackPage() {
     <>
       <title>Обращения Граждан</title>
 
-      <header className="header">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
+      <header className="nav-header">
+        <div className="nav-container">
+          <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
                 <img src="/public/logo.png" alt="logo" />
@@ -89,7 +89,7 @@ function FeedbackPage() {
         </div>
 
         <div className="page-content">
-          <h1 className="page-title">Полезные Ссылки</h1>
+          <h1 className="page-title">Обращения Граждан</h1>
           <br />
           <br />
 
@@ -115,80 +115,106 @@ function FeedbackPage() {
                     controlId="validationFormik101"
                     className="position-relative"
                   >
-                    <Form.Label>Имя*</Form.Label>
-                    <Form.Control
-                      type="text"
-                      name="firstName"
-                      value={values.firstName}
-                      onChange={handleChange}
-                      isInvalid={!!errors.firstName}
-                    />
+                    <div className="col-25">
+                      <Form.Label>Имя*</Form.Label>
+                    </div>
+                    <div className="col-75">
+                      <Form.Control
+                        type="text"
+                        name="firstName"
+                        value={values.firstName}
+                        onChange={handleChange}
+                        isInvalid={!!errors.firstName}
+                      />
+                    </div>
                   </Form.Group>
+                </Row>
+                <Row className="mb-3">
                   <Form.Group
                     as={Col}
                     md="4"
                     controlId="validationFormik102"
                     className="position-relative"
                   >
-                    <Form.Label>Фамилия*</Form.Label>
-                    <Form.Control
-                      type="text"
-                      name="lastName"
-                      value={values.lastName}
-                      onChange={handleChange}
-                      isInvalid={!!errors.lastName}
-                    />
+                    <div className="col-25">
+                      <Form.Label>Фамилия*</Form.Label>
+                    </div>
+                    <div className="col-75">
+                      <Form.Control
+                        type="text"
+                        name="lastName"
+                        value={values.lastName}
+                        onChange={handleChange}
+                        isInvalid={!!errors.lastName}
+                      />
+                    </div>
                   </Form.Group>
+                </Row>
+                <Row className="mb-3">
                   <Form.Group
                     as={Col}
                     md="4"
                     controlId="validationFormik102"
                     className="position-relative"
                   >
-                    <Form.Label>Отчество</Form.Label>
-                    <Form.Control
-                      type="text"
-                      name="fName"
-                      value={values.fName}
-                      onChange={handleChange}
-                      isValid={touched.fName && !errors.fName}
-                    />
+                    <div className="col-25">
+                      <Form.Label>Отчество</Form.Label>
+                    </div>
+                    <div className="col-75">
+                      <Form.Control
+                        type="text"
+                        name="fName"
+                        value={values.fName}
+                        onChange={handleChange}
+                        isValid={touched.fName && !errors.fName}
+                      />
+                    </div>
                   </Form.Group>
+                </Row>
+                <Row className="mb-3">
                   <Form.Group
                     as={Col}
                     md="4"
                     controlId="validationFormikUsername2"
                   >
-                    <Form.Label>Электронная Почта*</Form.Label>
+                    <div className="col-25">
+                      <Form.Label>Электронная Почта*</Form.Label>
+                    </div>
+
                     <InputGroup hasValidation>
-                      <Form.Control
-                        type="text"
-                        placeholder="example@email.com"
-                        aria-describedby="inputGroupPrepend"
-                        name="email"
-                        value={values.email}
-                        onChange={handleChange}
-                        isInvalid={!!errors.email}
-                      />
+                      <div className="col-75">
+                        <Form.Control
+                          type="text"
+                          placeholder="example@email.com"
+                          aria-describedby="inputGroupPrepend"
+                          name="email"
+                          value={values.email}
+                          onChange={handleChange}
+                          isInvalid={!!errors.email}
+                        />
+                      </div>
                     </InputGroup>
                   </Form.Group>
-                </Row>
-                <Row className="mb-3">
+
                   <Form.Group
                     as={Col}
                     md="6"
                     controlId="validationFormik103"
                     className="position-relative"
                   >
-                    <Form.Label>Номер Телефона*</Form.Label>
-                    <Form.Control
-                      type="text"
-                      placeholder="+7 (000) 000-00-00"
-                      name="phone"
-                      value={values.phone}
-                      onChange={handleChange}
-                      isInvalid={!!errors.phone}
-                    />
+                    <div className="col-25">
+                      <Form.Label>Номер Телефона*</Form.Label>
+                    </div>
+                    <div className="col-75">
+                      <Form.Control
+                        type="text"
+                        placeholder="+7 (000) 000-00-00"
+                        name="phone"
+                        value={values.phone}
+                        onChange={handleChange}
+                        isInvalid={!!errors.phone}
+                      />
+                    </div>
                   </Form.Group>
                 </Row>
 
@@ -196,7 +222,7 @@ function FeedbackPage() {
                   className="mb-3"
                   controlId="exampleForm.ControlTextarea1"
                 >
-                  <Form.Label>Текст Обращения</Form.Label>
+                  <Form.Label>Текст Обращения*</Form.Label>
                   <Form.Control as="textarea" rows={3} />
                 </Form.Group>
 
@@ -208,20 +234,23 @@ function FeedbackPage() {
                     name="file"
                     onChange={handleChange}
                     isInvalid={!!errors.file}
+                    id="file"
                   />
                 </Form.Group>
                 <Form.Group className="position-relative mb-3">
                   <Form.Check
                     required
                     name="terms"
-                    label="Согласен(на) на обработку персональных данных"
                     onChange={handleChange}
                     isInvalid={!!errors.terms}
                     id="validationFormik106"
                     feedbackTooltip
                   />
+                  <p>⠀Согласен(на) на обработку персональных данных*</p>
                 </Form.Group>
-                <p>* - Обязательное поле</p>
+                <p>
+                  <p className="end-need">*</p>- Обязательное поле
+                </p>
                 <Button type="submit">Отправить</Button>
               </Form>
             )}

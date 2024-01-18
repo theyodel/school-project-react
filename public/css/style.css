@@ -23,11 +23,11 @@ header a {
 header ul {
   list-style: none;
 }
-.container {
+.nav-container {
   max-width: 1170px;
   margin: auto;
 }
-.row {
+.nav-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -38,31 +38,31 @@ header ul {
   justify-content: space-between;
 }
 /*header*/
-.header {
+.nav-header {
   background-color: var(--color-1);
   padding: 9px 0;
   position: relative;
 }
-.header .logo,
-.header .nav {
+.nav-header .logo,
+.nav-header .nav {
   padding: 0 8px;
 }
-.header .logo a {
+.nav-header .logo a {
   font-size: 2.6rem;
   color: #000000;
   text-transform: capitalize;
 }
 
-.header .logo img {
+.nav-header .logo img {
   width: 4rem;
   height: 4rem;
 }
 
-.header .nav ul li {
+.nav-header .nav ul li {
   display: inline-block;
   margin-left: 20px;
 }
-.header .nav ul li a {
+.nav-header .nav ul li a {
   display: block;
   font-size: 17px;
   padding: 15px 0;
@@ -70,11 +70,11 @@ header ul {
   text-transform: capitalize;
   transition: all 0.3s ease;
 }
-.header .nav ul li a:hover,
-.header .nav ul li a.active {
+.nav-header .nav ul li a:hover,
+.nav-header .nav ul li a.active {
   color: var(--primary);
 }
-.header #nav-check {
+.nav-header #nav-check {
   position: absolute;
   opacity: 0;
   pointer-events: none;
@@ -123,7 +123,7 @@ header ul {
   .nav-toggler {
     display: flex;
   }
-  .header .nav {
+  .nav-header .nav {
     position: absolute;
     left: 0;
     top: 100%;
@@ -133,25 +133,25 @@ header ul {
     opacity: 0;
     visibility: hidden;
   }
-  .header .nav ul li {
+  .nav-header .nav ul li {
     display: block;
     margin: 0;
   }
-  .header #nav-check:checked ~ .nav {
+  .nav-header #nav-check:checked ~ .nav {
     opacity: 1;
     visibility: visible;
   }
-  .header #nav-check:focus ~ .nav-toggler {
+  .nav-header #nav-check:focus ~ .nav-toggler {
     box-shadow: 0 0 15px #0000006b;
   }
-  .header #nav-check:checked ~ .nav-toggler span {
+  .nav-header #nav-check:checked ~ .nav-toggler span {
     background-color: transparent;
   }
-  .header #nav-check:checked ~ .nav-toggler span::before {
+  .nav-header #nav-check:checked ~ .nav-toggler span::before {
     top: 0;
     transform: rotate(45deg);
   }
-  .header #nav-check:checked ~ .nav-toggler span::after {
+  .nav-header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(-45deg);
   }
@@ -159,14 +159,14 @@ header ul {
 
 /* footer */
 
-.row {
+.footer-row {
   display: flex;
   flex-wrap: wrap;
 }
-.footer ul {
+.ffooter ul {
   list-style: none;
 }
-.footer {
+.ffooter {
   background-size: 20%;
   background-image: url("/public/header-bg-pattern.png");
   background-repeat: round;
@@ -175,20 +175,20 @@ header ul {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.footer-col-1 {
+.ffooter-col-1 {
   width: 20%;
   padding: 0 2.5rem;
 }
 
-.footer-col-2 {
+.ffooter-col-2 {
   width: 60%;
   padding: 0 2.5rem;
 }
 
-.footer-col-1 ul li:not(:last-child) {
+.ffooter-col-1 ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-.footer-col-1 ul li a {
+.ffooter-col-1 ul li a {
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: none;
@@ -198,10 +198,10 @@ header ul {
   display: block;
   transition: all 0.3s ease;
 }
-.footer-col-1 ul li a:hover {
+.ffooter-col-1 ul li a:hover {
   color: #aaccff;
 }
-.footer-col-1 .social-links a {
+.ffooter-col-1 .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -213,15 +213,15 @@ header ul {
   color: #ffffff;
   transition: all 0.3s ease;
 }
-.footer-col-1 .social-links a:hover {
+.ffooter-col-1 .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
 
-.footer-col-2 ul li:not(:last-child) {
+.ffooter-col-2 ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-.footer-col-2 ul li a {
+.ffooter-col-2 ul li a {
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: none;
@@ -231,10 +231,10 @@ header ul {
   display: block;
   transition: all 0.3s ease;
 }
-.footer-col-2 ul li a:hover {
+.ffooter-col-2 ul li a:hover {
   color: #aaccff;
 }
-.footer-col-2 .social-links a {
+.ffooter-col-2 .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -246,26 +246,26 @@ header ul {
   color: #ffffff;
   transition: all 0.3s ease;
 }
-.footer-col-2 .social-links a:hover {
+.ffooter-col-2 .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
 
 @media (max-width: 767px) {
-  .footer-col-1 {
+  .ffooter-col-1 {
     width: 50%;
     margin-bottom: 30px;
   }
-  .footer-col-2 {
+  .ffooter-col-2 {
     width: 50%;
     margin-bottom: 30px;
   }
 }
 @media (max-width: 574px) {
-  .footer-col-1 {
+  .ffooter-col-1 {
     width: 100%;
   }
-  .footer-col-2 {
+  .ffooter-col-2 {
     width: 100%;
   }
 }

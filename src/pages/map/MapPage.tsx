@@ -92,9 +92,6 @@ function MapPage() {
           <a href="/helpful-links" className="a-map-main">
             Полезные Ссылки
           </a>
-          <a className="a-map-main" href="/sputnik">
-            Спутник
-          </a>
 
           <a className="a-map-main">Сведения об образовательной организации</a>
           <a className="a-map-thread">Основные сведения</a>
@@ -104,35 +101,28 @@ function MapPage() {
           </a>
           <a className="a-map-thread">Документы</a>
           <a className="a-map-thread">Образование</a>
-          <a className="a-map-thread">ООП НОО</a>
-          <a className="a-map-thread">ООП ООО</a>
-          <a className="a-map-thread">ООП СОО</a>
-          <a className="a-map-thread">Методическая копилка</a>
           <a className="a-map-thread">Руководство. Педагогический состав</a>
           <a className="a-map-thread">
             Материально-техническое обеспечение и оснащенность образовательного
             процесса
           </a>
-          <a className="a-map-thread">ЭОР</a>
-          <a className="a-map-thread">ФГИС Моя школа</a>
-          <a className="a-map-thread">Электронное портфолио обучающегося</a>
           <a className="a-map-thread">Электронный дневник</a>
           <a className="a-map-thread">Стипендии и меры поддержки</a>
-          <a className="a-map-thread">Платные образовательный услуги</a>
-          <a className="a-map-thread">Финансово-хозяйственная деятельность</a>
+          <a
+            className="a-map-thread"
+            href="https://bus.gov.ru/agency/243209/plans"
+          >
+            Финансово-хозяйственная деятельность
+          </a>
           <a className="a-map-thread">Вакантные места для приема (перевода)</a>
-          <a className="a-map-thread">Антикоррупция</a>
-          <a className="a-map-thread">ФЗ о сайте ОО</a>
           <a className="a-map-thread">Доступная среда</a>
-          <a className="a-map-thread">Международное сотрудничество</a>
 
           <a className="a-map-main">Обучающимся</a>
-          <a className="a-map-thread">
-            Оказание психологической помощи детям, подросткам и родителям
-          </a>
           <a className="a-map-thread">Школьная служба примирения</a>
-
-          <a className="a-map-thread">
+          <a
+            className="a-map-thread"
+            href="https://www.culture.ru/pushkinskaya-karta/afisha/arhangelskaya-oblast-severodvinsk"
+          >
             Пушкинская карта. Афиша культурных мероприятий Северодвинска.
           </a>
 
@@ -141,7 +131,6 @@ function MapPage() {
             Новости Минпросвещения России
           </a>
           <a className="a-map-thread">ОРКСЭ</a>
-          <a className="a-map-thread">Семейный клуб</a>
           <a className="a-map-thread">О добровольном труде и пожертвованиях</a>
           <a className="a-map-thread">Бланки заявлений</a>
 
@@ -173,8 +162,6 @@ function MapPage() {
           <a className="a-map-thread">Родителям</a>
           <a className="a-map-thread">Детские безопасные сайты</a>
 
-          <a className="a-map-main">Антитеррористическая безопасность</a>
-
           <a className="a-map-main">Отдых, оздоровление и занятость детей</a>
           <a href="" className="a-map-thread">
             Смена 2023
@@ -185,15 +172,7 @@ function MapPage() {
 
           <a className="a-map-main">Приём в школу</a>
 
-          <a className="a-map-main">РДДМ</a>
-
           <a className="a-map-main">Школьный спортивный клуб</a>
-
-          <a className="a-map-main">Коронавирус</a>
-
-          <a className="a-map-main">Функциональная грамотность</a>
-
-          <a className="a-map-main">Наставничество</a>
         </div>
 
         <Footer />

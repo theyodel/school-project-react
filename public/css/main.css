@@ -285,6 +285,13 @@ tr:nth-child(2n) {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: 20px;
+  cursor: context-menu;
+  transition: 0.3s;
+}
+
+.cccard:hover {
+  box-shadow: 0 4px 8px 0 var(--blue-shadow);
+  overflow: visible;
 }
 
 .cccard img {
@@ -343,7 +350,7 @@ tr:nth-child(2n) {
   font-size: small;
 }
 
-/* Всплывающая инфа (PC only) */
+/* Всплывающая инфа */
 [data-title] {
   position: relative;
   cursor: default;

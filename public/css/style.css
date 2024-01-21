@@ -80,7 +80,7 @@ header ul {
   pointer-events: none;
 }
 .nav-toggler {
-  height: 34px;
+  height: 44px;
   width: 44px;
   background-color: #ffffff;
   border-radius: 4px;
@@ -91,7 +91,9 @@ header ul {
   display: none;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin-right: 15px;
+
   transition: 0.3s;
 }
 .nav-toggler span {
@@ -100,6 +102,7 @@ header ul {
   width: 20px;
   background-color: #000000;
   position: relative;
+  transition: 0.3s;
 }
 .nav-toggler:hover {
   box-shadow: 0 0 15px #0000006b;
@@ -158,10 +161,10 @@ header ul {
 }
 
 /* footer */
-
 .footer-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .ffooter ul {
   list-style: none;
@@ -176,12 +179,12 @@ header ul {
   padding-bottom: 2rem;
 }
 .ffooter-col-1 {
-  width: 20%;
+  width: 15%;
   padding: 0 2.5rem;
 }
 
 .ffooter-col-2 {
-  width: 60%;
+  width: 50%;
   padding: 0 2.5rem;
 }
 

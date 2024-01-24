@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import logo from "/public/logo.svg";
 
 function IndexPage() {
   return (
@@ -8,7 +9,7 @@ function IndexPage() {
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
-                <img src="/public/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
               </a>
             </div>
             <input type="checkbox" id="nav-check" />
@@ -95,9 +96,13 @@ function IndexPage() {
                 <p>Some description</p>
               </div>
               <div className="card-footer">
-                <p className="card-category">Новости</p>
+                <p className="card-category">
+                  <abbr data-title="Категория: Новости">Новости</abbr>
+                </p>
                 <p className="card-dot">|</p>
-                <p className="card-date">18 янв. 2024</p>
+                <p className="card-date">
+                  <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                </p>
               </div>
             </div>
 
@@ -109,9 +114,13 @@ function IndexPage() {
                   <p>Some description</p>
                 </div>
                 <div className="card-footer">
-                  <p className="card-category">Новости</p>
+                  <p className="card-category">
+                    <abbr data-title="Категория: Новости">Новости</abbr>
+                  </p>
                   <p className="card-dot">|</p>
-                  <p className="card-date">18 янв. 2024</p>
+                  <p className="card-date">
+                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                  </p>
                 </div>
               </div>
             </div>
@@ -123,9 +132,13 @@ function IndexPage() {
                   <p>Some description</p>
                 </div>
                 <div className="card-footer">
-                  <p className="card-category">Новости</p>
+                  <p className="card-category">
+                    <abbr data-title="Категория: Новости">Новости</abbr>
+                  </p>
                   <p className="card-dot">|</p>
-                  <p className="card-date">18 янв. 2024</p>
+                  <p className="card-date">
+                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                  </p>
                 </div>
               </div>
             </div>
@@ -137,9 +150,31 @@ function IndexPage() {
                   <p>Some description</p>
                 </div>
                 <div className="card-footer">
-                  <p className="card-category">Новости</p>
+                  <p className="card-category">
+                    <abbr data-title="Категория: Новости">Новости</abbr>
+                  </p>
                   <p className="card-dot">|</p>
-                  <p className="card-date">18 янв. 2024</p>
+                  <p className="card-date">
+                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="cccard__container">
+              <div className="cccard">
+                <img src="/public/news-1.jpg" />
+                <div className="cccard__data">
+                  <h3>Title</h3>
+                  <p>Some description</p>
+                </div>
+                <div className="card-footer">
+                  <p className="card-category">
+                    <abbr data-title="Категория: Новости">Новости</abbr>
+                  </p>
+                  <p className="card-dot">|</p>
+                  <p className="card-date">
+                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
+                  </p>
                 </div>
               </div>
             </div>

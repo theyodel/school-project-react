@@ -1,7 +1,7 @@
 :root {
   --primary: #0058cc;
   --school-blue: #0058cc;
-  --blue-shadow: rgb(0, 88, 204, 0.4);
+  --blue-shadow: rgba(0, 86, 199, 0.493);
 }
 
 * {
@@ -361,18 +361,18 @@ tr:nth-child(2n) {
 /* Всплывающая инфа */
 [data-title] {
   position: relative;
-  cursor: default;
+  cursor: help;
   overflow: visible !important;
 }
 [data-title]::after {
   content: attr(data-title);
   position: absolute;
   left: 0;
-  top: -3em;
+  top: 1.5em;
   opacity: 0;
   transition: 0.3s;
   pointer-events: none;
-  background: #3314e69a;
+  background: #2214e69a;
   color: #fff;
   padding: 0.5em;
   overflow: visible !important;

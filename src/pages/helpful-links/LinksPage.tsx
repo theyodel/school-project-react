@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import logo from "/public/logo.svg";
 
 function LinksPage() {
   return (
@@ -10,7 +11,7 @@ function LinksPage() {
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
-                <img src="/public/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
               </a>
             </div>
             <input type="checkbox" id="nav-check" />

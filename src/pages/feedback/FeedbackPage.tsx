@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import * as formik from "formik";
 import * as yup from "yup";
 import Footer from "../../components/Footer";
+import logo from "/public/logo.svg";
 
 function FeedbackPage() {
   const { Formik } = formik;
@@ -27,7 +28,7 @@ function FeedbackPage() {
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
-                <img src="/public/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
               </a>
             </div>
             <input type="checkbox" id="nav-check" />

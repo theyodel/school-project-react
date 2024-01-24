@@ -31,12 +31,20 @@
 }
 
 .name-img {
-  margin-top: -1.3rem;
+  margin-top: -3.5rem;
+  margin-bottom: auto;
   float: left;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   width: 8.2rem;
-  height: 8.7rem;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .name-img {
+    width: 0px;
+    height: 0px;
+  }
 }
 
 .map-grid {

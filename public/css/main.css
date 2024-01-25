@@ -397,3 +397,54 @@ tr:nth-child(2n) {
   display: flex;
   margin-right: -0.5rem;
 }
+
+/* Status Line */
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+}
+
+.container_item {
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line_item {
+  width: 10px;
+  flex-grow: 1;
+  background-color: #cccccc;
+}
+
+.line_center {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px 0;
+}
+
+.line_top {
+  border-radius: 0 0 20px 20px;
+}
+
+.line_bottom {
+  border-radius: 20px 20px 0 0;
+}

@@ -68,7 +68,7 @@ function SchoolfoodPage() {
           </a>
           <a className="path-dot">&middot;</a>
           <a href="/site-map" className="a-path-last">
-            Школьное Питание
+            Школьное питание
           </a>
         </div>
 

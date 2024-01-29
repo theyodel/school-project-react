@@ -16,6 +16,9 @@ import FeedbackPage from "./pages/feedback/FeedbackPage.tsx";
 import FaqPage from "./pages/feedback/faq/FaqPage.tsx";
 import FeedbackStatusPage from "./pages/feedback/status/FeedbackStatusPage.tsx";
 import SchoolfoodPage from "./pages/school-food/SchoolfoodPage.tsx";
+import BasicinformationPage from "./pages/basic-information/BasicinformationPage.tsx";
+import SchoolhistoryPage from "./pages/basic-information/school-history/SchoolhistoryPage.tsx";
+import StructureandmanagementPage from "./pages/basic-information/StructureandmanagementPage/StructureandmanagementPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
   {
     path: "/school-food",
     element: <SchoolfoodPage />,
+  },
+  {
+    path: "/basic-information",
+    element: <BasicinformationPage />,
+  },
+  {
+    path: "/basic-information/school-history",
+    element: <SchoolhistoryPage />,
+  },
+  {
+    path: "/basic-information/structure-and-management",
+    element: <StructureandmanagementPage />,
   },
 ]);
 

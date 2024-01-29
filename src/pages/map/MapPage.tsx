@@ -68,7 +68,7 @@ function MapPage() {
           </a>
           <a className="path-dot">&middot;</a>
           <a href="/site-map" className="a-path-last">
-            Карта Сайта
+            Карта сайта
           </a>
         </div>
 
@@ -94,10 +94,16 @@ function MapPage() {
             Полезные Ссылки
           </a>
 
-          <a className="a-map-main">Сведения об образовательной организации</a>
-          <a className="a-map-thread">Основные сведения</a>
-          <a className="a-map-thread">История школы</a>
-          <a className="a-map-thread">
+          <a className="a-map-main" href="/basic-information">
+            Сведения об образовательной организации
+          </a>
+          <a className="a-map-thread" href="/basic-information/school-history">
+            История школы
+          </a>
+          <a
+            className="a-map-thread"
+            href="/basic-information/structure-and-management"
+          >
             Структура и органы управления образовательной организацией
           </a>
           <a className="a-map-thread">Документы</a>

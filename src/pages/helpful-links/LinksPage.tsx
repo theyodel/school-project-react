@@ -68,7 +68,7 @@ function LinksPage() {
           </a>
           <a className="path-dot">&middot;</a>
           <a href="/helpful-links" className="a-path-last">
-            Полезные Ссылки
+            Полезные ссылки
           </a>
         </div>
 

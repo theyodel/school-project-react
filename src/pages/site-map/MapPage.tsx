@@ -107,7 +107,9 @@ function MapPage() {
             Структура и органы управления образовательной организацией
           </a>
           <a className="a-map-thread">Документы</a>
-          <a className="a-map-thread">Образование</a>
+          <a className="a-map-thread" href="/basic-information/education">
+            Образование
+          </a>
           <a className="a-map-thread">Руководство. Педагогический состав</a>
           <a className="a-map-thread">
             Материально-техническое обеспечение и оснащенность образовательного

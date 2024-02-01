@@ -10,7 +10,7 @@ import "../public/css/form.css";
 
 // Pages
 import IndexPage from "./pages/index/IndexPage.tsx";
-import MapPage from "./pages/map/MapPage.tsx";
+import MapPage from "./pages/site-map/MapPage.tsx";
 import LinksPage from "./pages/helpful-links/LinksPage.tsx";
 import FeedbackPage from "./pages/feedback/FeedbackPage.tsx";
 import FaqPage from "./pages/feedback/faq/FaqPage.tsx";
@@ -18,7 +18,8 @@ import FeedbackStatusPage from "./pages/feedback/status/FeedbackStatusPage.tsx";
 import SchoolfoodPage from "./pages/school-food/SchoolfoodPage.tsx";
 import BasicinformationPage from "./pages/basic-information/BasicinformationPage.tsx";
 import SchoolhistoryPage from "./pages/basic-information/school-history/SchoolhistoryPage.tsx";
-import StructureandmanagementPage from "./pages/basic-information/StructureandmanagementPage/StructureandmanagementPage.tsx";
+import StructureandmanagementPage from "./pages/basic-information/structure-and-management/StructureandmanagementPage.tsx";
+import EducationPage from "./pages/basic-information/education/EducationPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
   {
     path: "/basic-information/structure-and-management",
     element: <StructureandmanagementPage />,
+  },
+  {
+    path: "/basic-information/education",
+    element: <EducationPage />,
   },
 ]);
 

@@ -1,4 +1,4 @@
-import Navbar from "../../../components/Navbaa";
+import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 
 function StaffPage() {

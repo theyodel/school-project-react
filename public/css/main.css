@@ -4,6 +4,10 @@
   --blue-shadow: rgba(0, 86, 199, 0.493);
 }
 
+::selection {
+  background: var(--blue-shadow); /* Цвет фона */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -211,13 +215,13 @@
 
 .page-link[href*="https"] {
   background: url("/public/link.png") no-repeat 100% 0;
-  background-size: 16px 16px;
+  background-size: 1.2rem 1.2rem;
   padding-right: 19px;
 }
 
 .page-link[href*="https"]:hover {
   background: url("/public/link-hover.png") no-repeat 100% 0;
-  background-size: 16px 16px;
+  background-size: 1.2rem 1.2rem;
   padding-right: 19px;
 }
 
@@ -271,9 +275,9 @@ table {
   text-decoration: none;
   font-size: 1.7rem;
   font-weight: 400;
-  max-width: 70%;
+  max-width: 100%;
   border-collapse: collapse;
-  width: 70%;
+  width: 100%;
   text-align: left;
   cursor: default;
   border-top-left-radius: 10px;
@@ -284,23 +288,18 @@ table {
 
 th {
   font-weight: normal;
-  color: #039;
-  padding: 10px 8px;
-  border-bottom: 2px solid #afafaf;
+  color: rgb(0, 0, 0);
+  border: 2px solid #7e7e7e;
+  padding: 10px 15px;
 }
 
 td {
-  color: black;
-  padding: 9px 8px;
-  transition: 0.3s linear;
+  color: rgb(43, 42, 46);
+  border: 2px solid #7e7e7e;
+  padding: 10px 15px;
 }
-
-tr:hover td {
-  color: var(--school-blue);
-}
-
-tr:nth-child(2n) {
-  background: #c2c2c257;
+tr {
+  background: #f8f8f8;
 }
 
 /* Cards */
@@ -472,4 +471,24 @@ tr:nth-child(2n) {
 
 .line_bottom {
   border-radius: 20px 20px 0 0;
+}
+
+.nevidimo {
+  font-size: 0.75rem;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.page-content ul li {
+  color: #000000;
+  list-style-type: none;
+}
+.page-content ul li::before {
+  content: "◦ ";
+  color: #000000;
+  margin-left: -1.25rem;
 }

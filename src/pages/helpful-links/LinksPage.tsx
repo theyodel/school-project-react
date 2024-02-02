@@ -80,6 +80,7 @@ function LinksPage() {
           <p>
             <a href="https://edu.gov.ru/" className="page-link">
               Министерство просвещения Российской Федерации
+              <a className="nevidimo">⠀</a>
             </a>
           </p>
 
@@ -88,6 +89,7 @@ function LinksPage() {
           <p>
             <a href="https://minobrnauki.gov.ru/" className="page-link">
               Министерство науки и высшего образования Российской Федерации
+              <a className="nevidimo">⠀</a>
             </a>
           </p>
 
@@ -95,7 +97,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://урок.рф/" className="page-link">
-              УРОК.РФ
+              УРОК.РФ<a className="nevidimo">⠀</a>
             </a>{" "}
             — педагогическое сообщество, предназначенное для работников
             школьного, дошкольного и дополнительного образования, а также для
@@ -107,7 +109,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://fipi.ru/" className="page-link">
-              ФИПИ
+              ФИПИ<a className="nevidimo">⠀</a>
             </a>{" "}
             — сайт Федерального института педагогических измерений, на котором
             уже размещены демоверсии ОГЭ и ЕГЭ 2021 года и опубликованы открытые
@@ -118,7 +120,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://1сентября.рф/" className="page-link">
-              1сентября.рф
+              1сентября.рф<a className="nevidimo">⠀</a>
             </a>{" "}
             — известный издательский дом предлагает учителям более десятка
             уникальных проектов: фестиваль методических разработок, конкурсы,
@@ -129,7 +131,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://school-collection.edu.ru/" className="page-link">
-              school-collection.edu.ru
+              school-collection.edu.ru<a className="nevidimo">⠀</a>
             </a>
             — единая коллекция цифровых образовательных ресурсов.
           </p>
@@ -138,7 +140,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://ict.edu.ru/" className="page-link">
-              ict.edu.ru
+              ict.edu.ru<a className="nevidimo">⠀</a>
             </a>{" "}
             — федеральный образовательный портал «Информационно-коммуникационные
             технологии в образовании».
@@ -148,7 +150,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://pedsovet.org/" className="page-link">
-              pedsovet.org
+              pedsovet.org<a className="nevidimo">⠀</a>
             </a>{" "}
             — всероссийский интернет-педсовет.
           </p>
@@ -157,7 +159,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://skysmart.ru/" className="page-link">
-              SkySmart
+              SkySmart<a className="nevidimo">⠀</a>
             </a>{" "}
             — онлайн-школа для детей и подростков.
           </p>
@@ -166,7 +168,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://фоксфорд.ру/" className="page-link">
-              Фоксфорд.ру
+              Фоксфорд.ру<a className="nevidimo">⠀</a>
             </a>{" "}
             — возможность пройти бесплатное дистанционное обучение у экспертов
             МГУ, МФТИ, ВШЭ и других ведущих вузов страны.
@@ -176,7 +178,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://interneturok.ru/" className="page-link">
-              interneturok.ru
+              interneturok.ru<a className="nevidimo">⠀</a>
             </a>{" "}
             — открытые уроки по всем предметам школьной программы, содержат
             тесты, тренажеры и конспекты. Учитель найдет готовые материалы для
@@ -190,7 +192,7 @@ function LinksPage() {
               href="https://youtube.com/user/Drofapublishing"
               className="page-link"
             >
-              Youtube-канал Drofapublishing
+              Youtube-канал Drofapublishing<a className="nevidimo">⠀</a>
             </a>{" "}
             — архив вебинаров авторов учебников, ученых, преподавателей,
             учителей-практиков, открытые уроки, интервью с ведущими
@@ -201,7 +203,7 @@ function LinksPage() {
 
           <p className="page-text">
             <a href="https://media.prosv.ru/" className="page-link">
-              Медиатека «Просвещения»
+              Медиатека «Просвещения»<a className="nevidimo">⠀</a>
             </a>{" "}
             — это электронные учебники издательства, а также доступ к другим
             полезным материалам: рабочим программам, методическим пособиям,
@@ -215,7 +217,7 @@ function LinksPage() {
               href="https://www.canva.com/ru_ru/grafiki/"
               className="page-link"
             >
-              Canva
+              Canva<a className="nevidimo">⠀</a>
             </a>{" "}
             — онлайн-сервис по созданию диаграмм и графиков самостоятельно или
             на основе готовых шаблонов.

@@ -20,6 +20,7 @@ import BasicinformationPage from "./pages/basic-information/BasicinformationPage
 import SchoolhistoryPage from "./pages/basic-information/school-history/SchoolhistoryPage.tsx";
 import StructureandmanagementPage from "./pages/basic-information/structure-and-management/StructureandmanagementPage.tsx";
 import EducationPage from "./pages/basic-information/education/EducationPage.tsx";
+import StaffPage from "./pages/basic-information/staff/StaffPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/basic-information/education",
     element: <EducationPage />,
+  },
+  {
+    path: "/basic-information/staff",
+    element: <StaffPage />,
   },
 ]);
 

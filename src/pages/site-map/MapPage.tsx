@@ -110,7 +110,9 @@ function MapPage() {
           <a className="a-map-thread" href="/basic-information/education">
             Образование
           </a>
-          <a className="a-map-thread">Руководство. Педагогический состав</a>
+          <a href="/basic-information/staff" className="a-map-thread">
+            Руководство. Педагогический состав
+          </a>
           <a className="a-map-thread">
             Материально-техническое обеспечение и оснащенность образовательного
             процесса

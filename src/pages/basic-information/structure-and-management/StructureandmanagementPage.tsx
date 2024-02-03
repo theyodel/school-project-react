@@ -38,7 +38,7 @@ function StructureandmanagementPage() {
           <h1 className="page-title">Структура и органы управления ОО</h1>
           <br />
           <br />
-          <p className="page-text bold">Структура МАОУ "СОШ № 6":</p>
+          <p className="category-title">Структура МАОУ "СОШ № 6":</p>
           <ul>
             <li>
               структурных подразделений нет; руководителей структурных
@@ -204,8 +204,10 @@ function StructureandmanagementPage() {
               </a>
             </li>
             <li>
-              Адрес электронной почты органов управления –
-              school6severodvinsk@bk.ru{" "}
+              Адрес электронной почты органов управления –{" "}
+              <a href="mailto:school6severodvinsk@bk.ru" className="page-link">
+                school6severodvinsk@bk.ru
+              </a>
             </li>
           </ul>
         </div>

@@ -76,7 +76,7 @@
 .a-map-main {
   cursor: pointer;
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 700;
   transition: 0.3s;
   color: black;
@@ -86,7 +86,7 @@
 .a-map-thread {
   cursor: pointer;
   margin-left: 1.2rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 500;
   transition: 0.3s;
   color: black;
@@ -146,9 +146,16 @@
   color: var(--primary);
 }
 
+.category-title {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
 .page-text {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: black;
 }
@@ -164,7 +171,7 @@
 .page-link {
   text-decoration: none;
   color: var(--primary);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   transition: 0.3s;
   position: relative;
@@ -236,7 +243,7 @@
 
 .page-content ol {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: black;
   margin-top: 0.5rem;
@@ -245,7 +252,7 @@
 }
 .page-content ul {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: black;
   margin-top: 0.5rem;
@@ -273,7 +280,7 @@
 /* Tables */
 table {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   max-width: 100%;
   border-collapse: collapse;
@@ -473,22 +480,12 @@ tr {
   border-radius: 20px 20px 0 0;
 }
 
-.nevidimo {
-  font-size: 0.75rem;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+li {
+  font-size: 1.5rem;
 }
 
 .page-content ul li {
   color: #000000;
-  list-style-type: none;
-}
-.page-content ul li::before {
-  content: "◦ ";
-  color: #000000;
-  margin-left: -1.25rem;
+  list-style-type: circle;
+  list-style-position: outside;
 }

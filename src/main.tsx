@@ -21,6 +21,10 @@ import SchoolhistoryPage from "./pages/basic-information/school-history/Schoolhi
 import StructureandmanagementPage from "./pages/basic-information/structure-and-management/StructureandmanagementPage.tsx";
 import EducationPage from "./pages/basic-information/education/EducationPage.tsx";
 import StaffPage from "./pages/basic-information/staff/StaffPage.tsx";
+import EquipmentPage from "./pages/basic-information/technical-equipment/EquipmentPage.tsx";
+import DnevnikruPage from "./pages/basic-information/technical-equipment/dnevnik.ru/DnevnikruPage.tsx";
+import ScholarshipPage from "./pages/basic-information/support-measures/ScholarshipPage.tsx";
+import VacanciesPage from "./pages/basic-information/vacancies/VacanciesPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +74,22 @@ const router = createBrowserRouter([
   {
     path: "/basic-information/staff",
     element: <StaffPage />,
+  },
+  {
+    path: "/basic-information/technical-equipment",
+    element: <EquipmentPage />,
+  },
+  {
+    path: "/basic-information/technical-equipment/dnevnik.ru",
+    element: <DnevnikruPage />,
+  },
+  {
+    path: "/basic-information/support-measures",
+    element: <ScholarshipPage />,
+  },
+  {
+    path: "/basic-information/vacancies",
+    element: <VacanciesPage />,
   },
 ]);
 

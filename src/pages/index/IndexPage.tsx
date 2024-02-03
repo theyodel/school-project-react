@@ -70,9 +70,7 @@ function IndexPage() {
           <h1 className="page-title">Главная Страница</h1>
           <br />
           <br />
-          <p className="page-text bold larger">
-            Вы находитесь на сайте МАОУ «СОШ №6»
-          </p>
+          <p className="category-title">Вы находитесь на сайте МАОУ «СОШ №6»</p>
 
           <p className="page-text">
             МАОУ Средняя общеобразовательная школа № 6 с углубленным изучением
@@ -86,7 +84,7 @@ function IndexPage() {
 
           <br />
           <br />
-          <p className="page-text bold larger">Новости и События</p>
+          <p className="category-title">Новости и События</p>
 
           <div className="cccard__container">
             <div className="cccard">

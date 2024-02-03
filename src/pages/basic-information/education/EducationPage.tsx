@@ -35,7 +35,7 @@ function EducationPage() {
           <h1 className="page-title">Образование</h1>
           <br />
           <br />
-          <p className="page-text bold">
+          <p className="category-title">
             Реализуемые уровни образования и нормативные сроки
           </p>
           <ol>
@@ -64,7 +64,7 @@ function EducationPage() {
           <br />
           <br />
           <br />
-          <p className="page-text bold">Формы обучения</p>
+          <p className="category-title">Формы обучения</p>
           <br />
           <p className="page-text">
             Обучение осуществляется в <a className="bold">очной форме</a>.
@@ -102,7 +102,7 @@ function EducationPage() {
           <br />
           <br />
           <br />
-          <p className="page-text bold">
+          <p className="category-title">
             Языки, на которых осуществляется обучение
           </p>
           <br />
@@ -132,7 +132,7 @@ function EducationPage() {
           </ul>
           <br />
           <br />
-          <p className="page-text bold">
+          <p className="category-title">
             Государственная аккредитация образовательной программы
           </p>
           <br />
@@ -210,7 +210,7 @@ function EducationPage() {
           </ul>
           <br />
           <br />
-          <p className="page-text bold">Начальное общее образование</p>
+          <p className="category-title">Начальное общее образование</p>
           <p className="page-text">
             Основная образовательная программа начального общего образования
             МАОУ «СОШ № 6» разработана на основе анализа деятельности
@@ -300,7 +300,7 @@ function EducationPage() {
           <br />
           <br />
 
-          <p className="page-text bold">Основное общее образование</p>
+          <p className="category-title">Основное общее образование</p>
           <p className="page-text">
             Основная образовательная программа основного общего образования
             является нормативно-управленческим документом муниципального
@@ -387,7 +387,7 @@ function EducationPage() {
           <br />
           <br />
 
-          <p className="page-text bold">Среднее общее образование</p>
+          <p className="category-title">Среднее общее образование</p>
           <p className="page-text">
             Основная образовательная программа среднего общего образования
             направлена на реализацию целей и задач общего образования с учётом
@@ -508,14 +508,14 @@ function EducationPage() {
           <br />
           <br />
 
-          <p className="page-text bold">
+          <p className="category-title">
             Практики, предусмотренной соответствующими образовательными
             программами, нет.
           </p>
           <br />
           <br />
 
-          <p className="page-text bold">
+          <p className="category-title">
             Календарные учебные графики на 2023-2024 учебный год
           </p>
           <table>
@@ -551,7 +551,7 @@ function EducationPage() {
           <br />
           <br />
 
-          <p className="page-text bold">Программа воспитания МАОУ “СОШ № 6”</p>
+          <p className="category-title">Программа воспитания МАОУ “СОШ № 6”</p>
           <table>
             <tr>
               <th>Классы</th>
@@ -635,7 +635,7 @@ function EducationPage() {
           <br />
           <br />
 
-          <p className="page-text bold">
+          <p className="category-title">
             Положение о внутренней системе оценки качества образования{" "}
             <a href="" className="page-link">
               Скачать

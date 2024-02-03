@@ -113,19 +113,34 @@ function MapPage() {
           <a href="/basic-information/staff" className="a-map-thread">
             Руководство. Педагогический состав
           </a>
-          <a className="a-map-thread">
+          <a
+            className="a-map-thread"
+            href="/basic-information/technical-equipment"
+          >
             Материально-техническое обеспечение и оснащенность образовательного
             процесса
           </a>
-          <a className="a-map-thread">Электронный дневник</a>
-          <a className="a-map-thread">Стипендии и меры поддержки</a>
+          <a
+            className="a-map-thread"
+            href="/basic-information/technical-equipment/dnevnik.ru"
+          >
+            Электронный дневник
+          </a>
+          <a
+            className="a-map-thread"
+            href="/basic-information/support-measures"
+          >
+            Стипендии и меры поддержки
+          </a>
           <a
             className="a-map-thread"
             href="https://bus.gov.ru/agency/243209/plans"
           >
             Финансово-хозяйственная деятельность
           </a>
-          <a className="a-map-thread">Вакантные места для приема (перевода)</a>
+          <a className="a-map-thread" href="/basic-information/vacancies">
+            Вакантные места для приема (перевода)
+          </a>
           <a className="a-map-thread">Доступная среда</a>
 
           <a className="a-map-main">Обучающимся</a>

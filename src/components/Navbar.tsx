@@ -1,5 +1,3 @@
-import src from "/public/logo.svg";
-
 function Navbar() {
   return (
     <>
@@ -8,7 +6,7 @@ function Navbar() {
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
               <a href="/">
-                <img src={src} alt="logo" />
+                <img src="/logo.png" alt="logo" />
               </a>
             </div>
             <input type="checkbox" id="nav-check" />

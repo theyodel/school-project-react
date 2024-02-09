@@ -25,6 +25,7 @@ import EquipmentPage from "./pages/basic-information/technical-equipment/Equipme
 import DnevnikruPage from "./pages/basic-information/technical-equipment/dnevnik.ru/DnevnikruPage.tsx";
 import ScholarshipPage from "./pages/basic-information/support-measures/ScholarshipPage.tsx";
 import VacanciesPage from "./pages/basic-information/vacancies/VacanciesPage.tsx";
+import EnvironmentPage from "./pages/basic-information/available-environment/EnvironmentPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
   {
     path: "/basic-information/vacancies",
     element: <VacanciesPage />,
+  },
+  {
+    path: "/basic-information/available-environment",
+    element: <EnvironmentPage />,
   },
 ]);
 

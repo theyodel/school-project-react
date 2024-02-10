@@ -53,8 +53,6 @@
 
 .map-grid {
   display: grid;
-  margin-left: 3rem;
-  margin-top: 2.5rem;
 }
 
 .hr-main {
@@ -164,6 +162,7 @@
   margin-top: 1.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-bottom: 10rem;
   background-color: transparent;
   display: grid;
 }
@@ -204,7 +203,7 @@
   bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: black;
+  background-color: #003274;
   transition: width 0.3s;
 }
 
@@ -220,13 +219,13 @@
   transition: width 0.3s;
 }
 
-.page-link[href*="https"] {
+.page-link[href*="http"] {
   background: url("/public/link.png") no-repeat 100% 0;
   background-size: 1.2rem 1.2rem;
   padding-right: 19px;
 }
 
-.page-link[href*="https"]:hover {
+.page-link[href*="http"]:hover {
   background: url("/public/link-hover.png") no-repeat 100% 0;
   background-size: 1.2rem 1.2rem;
   padding-right: 19px;
@@ -239,6 +238,17 @@
   border-bottom-right-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+
+.youtube {
+  border-color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 560px;
+  height: 315px;
+  text-align: center;
 }
 
 .page-content ol {
@@ -273,6 +283,10 @@
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .larger {
   font-size: 2.5rem;
 }
@@ -280,7 +294,7 @@
 /* Tables */
 table {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   max-width: 100%;
   border-collapse: collapse;
@@ -294,7 +308,7 @@ table {
 }
 
 th {
-  font-weight: normal;
+  font-weight: bolder;
   color: rgb(0, 0, 0);
   border: 2px solid #7e7e7e;
   padding: 10px 15px;
@@ -305,6 +319,10 @@ td {
   border: 2px solid #7e7e7e;
   padding: 10px 15px;
 }
+td .page-link {
+  font-size: 1.2rem;
+}
+
 tr {
   background: #f8f8f8;
 }

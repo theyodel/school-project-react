@@ -74,131 +74,153 @@ function MapPage() {
 
         <div className="page-content">
           <h1 className="page-title">Карта Сайта</h1>
-        </div>
+          <br />
+          <br />
 
-        <div className="map-grid">
-          <a className="a-map-main" href="/">
-            Главная
-          </a>
-          <a className="a-map-main" href="https://foodmonitoring.ru/22393/food">
-            Food
-          </a>
-          <a className="a-map-main" href="/feedback">
-            Обращения Граждан
-          </a>
-          <a className="a-map-main" href="/feedback/faq">
-            Часто задаваемые вопросы (FAQ)
-          </a>
-          <a className="a-map-main">Школьное Питание</a>
-          <a href="/helpful-links" className="a-map-main">
-            Полезные Ссылки
-          </a>
+          <div className="map-grid">
+            <a className="a-map-main" href="/">
+              Главная
+            </a>
+            <a
+              className="a-map-main"
+              href="https://foodmonitoring.ru/22393/food"
+            >
+              Food
+            </a>
+            <a className="a-map-main" href="/feedback">
+              Обращения Граждан
+            </a>
+            <a className="a-map-main" href="/feedback/faq">
+              Часто задаваемые вопросы (FAQ)
+            </a>
+            <a className="a-map-main">Школьное Питание</a>
+            <a href="/helpful-links" className="a-map-main">
+              Полезные Ссылки
+            </a>
 
-          <a className="a-map-main" href="/basic-information">
-            Сведения об образовательной организации
-          </a>
-          <a className="a-map-thread" href="/basic-information/school-history">
-            История школы
-          </a>
-          <a
-            className="a-map-thread"
-            href="/basic-information/structure-and-management"
-          >
-            Структура и органы управления образовательной организацией
-          </a>
-          <a className="a-map-thread">Документы</a>
-          <a className="a-map-thread" href="/basic-information/education">
-            Образование
-          </a>
-          <a href="/basic-information/staff" className="a-map-thread">
-            Руководство. Педагогический состав
-          </a>
-          <a
-            className="a-map-thread"
-            href="/basic-information/technical-equipment"
-          >
-            Материально-техническое обеспечение и оснащенность образовательного
-            процесса
-          </a>
-          <a
-            className="a-map-thread"
-            href="/basic-information/technical-equipment/dnevnik.ru"
-          >
-            Электронный дневник
-          </a>
-          <a
-            className="a-map-thread"
-            href="/basic-information/support-measures"
-          >
-            Стипендии и меры поддержки
-          </a>
-          <a
-            className="a-map-thread"
-            href="https://bus.gov.ru/agency/243209/plans"
-          >
-            Финансово-хозяйственная деятельность
-          </a>
-          <a className="a-map-thread" href="/basic-information/vacancies">
-            Вакантные места для приема (перевода)
-          </a>
-          <a className="a-map-thread">Доступная среда</a>
+            <a className="a-map-main" href="/basic-information">
+              Сведения об образовательной организации
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/school-history"
+            >
+              История школы
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/structure-and-management"
+            >
+              Структура и органы управления образовательной организацией
+            </a>
+            <a className="a-map-thread">Документы</a>
+            <a className="a-map-thread" href="/basic-information/education">
+              Образование
+            </a>
+            <a href="/basic-information/staff" className="a-map-thread">
+              Руководство. Педагогический состав
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/technical-equipment"
+            >
+              Материально-техническое обеспечение и оснащенность
+              образовательного процесса
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/technical-equipment/dnevnik.ru"
+            >
+              Электронный дневник
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/support-measures"
+            >
+              Стипендии и меры поддержки
+            </a>
+            <a
+              className="a-map-thread"
+              href="https://bus.gov.ru/agency/243209/plans"
+            >
+              Финансово-хозяйственная деятельность
+            </a>
+            <a className="a-map-thread" href="/basic-information/vacancies">
+              Вакантные места для приема (перевода)
+            </a>
+            <a
+              className="a-map-thread"
+              href="/basic-information/available-environment"
+            >
+              Доступная среда
+            </a>
 
-          <a className="a-map-main">Обучающимся</a>
-          <a className="a-map-thread">Школьная служба примирения</a>
-          <a
-            className="a-map-thread"
-            href="https://www.culture.ru/pushkinskaya-karta/afisha/arhangelskaya-oblast-severodvinsk"
-          >
-            Пушкинская карта. Афиша культурных мероприятий Северодвинска.
-          </a>
+            <a className="a-map-main" href="/for-students">
+              Обучающимся
+            </a>
+            <a
+              className="a-map-thread"
+              href="for-students/reconciliation-service"
+            >
+              Школьная служба примирения
+            </a>
+            <a
+              className="a-map-thread"
+              href="https://www.culture.ru/pushkinskaya-karta/afisha/arhangelskaya-oblast-severodvinsk"
+            >
+              Пушкинская карта. Афиша культурных мероприятий Северодвинска.
+            </a>
 
-          <a className="a-map-main">Родителям</a>
-          <a href="https://edu.gov.ru/press/news/" className="a-map-thread">
-            Новости Минпросвещения России
-          </a>
-          <a className="a-map-thread">ОРКСЭ</a>
-          <a className="a-map-thread">О добровольном труде и пожертвованиях</a>
-          <a className="a-map-thread">Бланки заявлений</a>
+            <a className="a-map-main">Родителям</a>
+            <a href="https://edu.gov.ru/press/news/" className="a-map-thread">
+              Новости Минпросвещения России
+            </a>
+            <a className="a-map-thread">ОРКСЭ</a>
+            <a className="a-map-thread">
+              О добровольном труде и пожертвованиях
+            </a>
+            <a className="a-map-thread">Бланки заявлений</a>
 
-          <a className="a-map-main">Всероссийская Олимпиада Школьников</a>
+            <a className="a-map-main">Всероссийская Олимпиада Школьников</a>
 
-          <a className="a-map-main">ГИА</a>
-          <a className="a-map-thread">ГИА 9</a>
-          <a className="a-map-thread">ГИА 11</a>
+            <a className="a-map-main">ГИА</a>
+            <a className="a-map-thread">ГИА 9</a>
+            <a className="a-map-thread">ГИА 11</a>
 
-          <a className="a-map-main">ВПР</a>
+            <a className="a-map-main">ВПР</a>
 
-          <a className="a-map-main">Безопасность школьника</a>
-          <a className="a-map-thread">Осторожно, терроризм!</a>
-          <a className="a-map-thread">
-            Безопасность в быту и на улице, пожарная безопасность
-          </a>
-          <a className="a-map-thread">Нет наркотикам</a>
-          <a className="a-map-thread">Телефоны экстренных служб</a>
-          <a className="a-map-thread">Безопасность дорожного движения</a>
-          <a className="a-map-thread">Безопасность на водных объектах</a>
-          <a className="a-map-thread">Профилактика заболеваний</a>
-          <a className="a-map-thread">Безопасность на ЖД</a>
+            <a className="a-map-main">Безопасность школьника</a>
+            <a className="a-map-thread">Осторожно, терроризм!</a>
+            <a className="a-map-thread">
+              Безопасность в быту и на улице, пожарная безопасность
+            </a>
+            <a className="a-map-thread">Нет наркотикам</a>
+            <a className="a-map-thread">Телефоны экстренных служб</a>
+            <a className="a-map-thread">Безопасность дорожного движения</a>
+            <a className="a-map-thread">Безопасность на водных объектах</a>
+            <a className="a-map-thread">Профилактика заболеваний</a>
+            <a className="a-map-thread">Безопасность на ЖД</a>
 
-          <a className="a-map-main">Информационная безопасность</a>
-          <a className="a-map-thread">Нормативное регулирование</a>
-          <a className="a-map-thread">Локальные нормативные акты</a>
-          <a className="a-map-thread">Педагогам</a>
-          <a className="a-map-thread">Обучающимся</a>
-          <a className="a-map-thread">Родителям</a>
-          <a className="a-map-thread">Детские безопасные сайты</a>
+            <a className="a-map-main">Информационная безопасность</a>
+            <a className="a-map-thread">Нормативное регулирование</a>
+            <a className="a-map-thread">Локальные нормативные акты</a>
+            <a className="a-map-thread">Педагогам</a>
+            <a className="a-map-thread">Обучающимся</a>
+            <a className="a-map-thread">Родителям</a>
+            <a className="a-map-thread">Детские безопасные сайты</a>
 
-          <a className="a-map-main">Отдых, оздоровление и занятость детей</a>
-          <a href="" className="a-map-thread">
-            Смена 2023
-          </a>
-          <a href="" className="a-map-thread">
-            Документы по лагерю
-          </a>
+            <a className="a-map-main">Отдых, оздоровление и занятость детей</a>
+            <a href="" className="a-map-thread">
+              Смена 2023
+            </a>
+            <a href="" className="a-map-thread">
+              Документы по лагерю
+            </a>
 
-          <a className="a-map-main">Приём в школу</a>
+            <a className="a-map-main">Приём в школу</a>
 
-          <a className="a-map-main">Школьный спортивный клуб</a>
+            <a className="a-map-main">Школьный спортивный клуб</a>
+          </div>
         </div>
 
         <Footer />

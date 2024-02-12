@@ -85,7 +85,7 @@ header ul {
   background-color: #ffffff;
   border-radius: 4px;
   border-width: 1px;
-  border-color: #24262b5e;
+  border-color: #24262b23;
   border-style: solid;
   cursor: pointer;
   display: none;
@@ -97,6 +97,7 @@ header ul {
   transition: 0.3s;
 }
 .nav-toggler span {
+  margin-left: 12px;
   display: block;
   height: 2px;
   width: 20px;

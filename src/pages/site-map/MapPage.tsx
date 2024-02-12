@@ -171,17 +171,25 @@ function MapPage() {
               Пушкинская карта. Афиша культурных мероприятий Северодвинска.
             </a>
 
-            <a className="a-map-main">Родителям</a>
+            <a className="a-map-main" href="/for-parents">
+              Родителям
+            </a>
             <a href="https://edu.gov.ru/press/news/" className="a-map-thread">
               Новости Минпросвещения России
             </a>
-            <a className="a-map-thread">ОРКСЭ</a>
-            <a className="a-map-thread">
+            <a className="a-map-thread" href="/for-parents/ORKSE">
+              ОРКСЭ
+            </a>
+            <a className="a-map-thread" href="/for-parents/about-donates">
               О добровольном труде и пожертвованиях
             </a>
-            <a className="a-map-thread">Бланки заявлений</a>
+            <a className="a-map-thread" href="/for-parents/application-forms">
+              Бланки заявлений
+            </a>
 
-            <a className="a-map-main">Всероссийская Олимпиада Школьников</a>
+            <a className="a-map-main" href="/allrussian-olympiad">
+              Всероссийская Олимпиада Школьников
+            </a>
 
             <a className="a-map-main">ГИА</a>
             <a className="a-map-thread">ГИА 9</a>

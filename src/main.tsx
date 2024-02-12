@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // CSS
 import "../public/css/style.css";
@@ -28,92 +27,68 @@ import VacanciesPage from "./pages/basic-information/vacancies/VacanciesPage.tsx
 import EnvironmentPage from "./pages/basic-information/available-environment/EnvironmentPage.tsx";
 import StudentsPage from "./pages/for-students/StudentsPage.tsx";
 import ReconcilPage from "./pages/for-students/reconciliation-service/ReconcilPage.tsx";
+import ParentsPage from "./pages/for-parents/ParentsPage.tsx";
+import OrksePage from "./pages/for-parents/ORKSE/OrksePage.tsx";
+import DonatesPage from "./pages/for-parents/about-donates/DonatesPage.tsx";
+import FormsPage from "./pages/for-parents/application-forms/FormsPage.tsx";
+import OlympiadPage from "./pages/allrussian-olympiad/OlympiadPage.tsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <IndexPage />,
-  },
-  {
-    path: "/site-map",
-    element: <MapPage />,
-  },
-  {
-    path: "/helpful-links",
-    element: <LinksPage />,
-  },
-  {
-    path: "/feedback",
-    element: <FeedbackPage />,
-  },
-  {
-    path: "/feedback/faq",
-    element: <FaqPage />,
-  },
-  {
-    path: "/feedback/status",
-    element: <FeedbackStatusPage />,
-  },
-  {
-    path: "/school-food",
-    element: <SchoolfoodPage />,
-  },
-  {
-    path: "/basic-information",
-    element: <BasicinformationPage />,
-  },
-  {
-    path: "/basic-information/school-history",
-    element: <SchoolhistoryPage />,
-  },
-  {
-    path: "/basic-information/structure-and-management",
-    element: <StructureandmanagementPage />,
-  },
-  {
-    path: "/basic-information/education",
-    element: <EducationPage />,
-  },
-  {
-    path: "/basic-information/staff",
-    element: <StaffPage />,
-  },
-  {
-    path: "/basic-information/technical-equipment",
-    element: <EquipmentPage />,
-  },
-  {
-    path: "/basic-information/technical-equipment/dnevnik.ru",
-    element: <DnevnikruPage />,
-  },
-  {
-    path: "/basic-information/support-measures",
-    element: <ScholarshipPage />,
-  },
-  {
-    path: "/basic-information/vacancies",
-    element: <VacanciesPage />,
-  },
-  {
-    path: "/basic-information/available-environment",
-    element: <EnvironmentPage />,
-  },
-  {
-    path: "/for-students",
-    element: <StudentsPage />,
-  },
-  {
-    path: "for-students/reconciliation-service",
-    element: <ReconcilPage />,
-  },
-]);
-
-const queryClient = new QueryClient();
-
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<IndexPage />} />
+        <Route path="/site-map" element={<MapPage />} />
+        <Route path="/helpful-links" element={<LinksPage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
+        <Route path="/feedback/faq" element={<FaqPage />} />
+        <Route path="/feedback/status/" element={<FeedbackStatusPage />} />
+        <Route path="/school-food" element={<SchoolfoodPage />} />
+        <Route path="/basic-information" element={<BasicinformationPage />} />
+        <Route
+          path="/basic-information/school-history"
+          element={<SchoolhistoryPage />}
+        />
+        <Route
+          path="/basic-information/structure-and-management"
+          element={<StructureandmanagementPage />}
+        />
+        <Route
+          path="/basic-information/education"
+          element={<EducationPage />}
+        />
+        <Route path="/basic-information/staff" element={<StaffPage />} />
+        <Route
+          path="/basic-information/technical-equipment"
+          element={<EquipmentPage />}
+        />
+        <Route
+          path="/basic-information/technical-equipment/dnevnik.ru"
+          element={<DnevnikruPage />}
+        />
+        <Route
+          path="/basic-information/support-measures"
+          element={<ScholarshipPage />}
+        />
+        <Route
+          path="/basic-information/vacancies"
+          element={<VacanciesPage />}
+        />
+        <Route
+          path="/basic-information/available-environment"
+          element={<EnvironmentPage />}
+        />
+        <Route path="/for-students" element={<StudentsPage />} />
+        <Route
+          path="/for-students/reconciliation-service"
+          element={<ReconcilPage />}
+        />
+        <Route path="/for-parents" element={<ParentsPage />} />
+        <Route path="/for-parents/ORKSE" element={<OrksePage />} />
+        <Route path="/for-parents/about-donates" element={<DonatesPage />} />
+        <Route path="/for-parents/application-forms" element={<FormsPage />} />
+        <Route path="/allrussian-olympiad" element={<OlympiadPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );

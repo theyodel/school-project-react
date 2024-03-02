@@ -1,5 +1,6 @@
 import Footer from "../../../components/Footer";
 import logo from "/public/logo.svg";
+import { Link } from "react-router-dom";
 
 function FaqPage() {
   return (
@@ -10,9 +11,9 @@ function FaqPage() {
         <div className="nav-container">
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
-              <a href="/">
+              <Link to="/">
                 <img src={logo} alt="logo" />
-              </a>
+              </Link>
             </div>
             <input type="checkbox" id="nav-check" />
             <label htmlFor="nav-check" className="nav-toggler">
@@ -21,27 +22,27 @@ function FaqPage() {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="/">Главная</a>
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/site-map">Карта Сайта</a>
+                  <Link to="/site-map">Карта Сайта</Link>
                 </li>
                 <li>
-                  <a href="/feedback">Обращения Граждан</a>
+                  <Link to="/feedback">Обращения Граждан</Link>
                 </li>
                 <li>
-                  <a href="/feedback/faq" className="active">
+                  <Link to="/feedback/faq" className="active">
                     FAQ
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <Link to="/school-food">Школьное Питание</Link>
                 </li>
                 <li>
-                  <a href="/helpful-links">Полезные Ссылки</a>
+                  <Link to="/helpful-links">Полезные Ссылки</Link>
                 </li>
               </ul>
             </nav>
@@ -63,17 +64,17 @@ function FaqPage() {
         <hr className="hr-main" />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/feedback" className="a-path">
+          <Link to="/feedback" className="a-path">
             Обращения граждан
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/faq" className="a-path-last">
+          <Link to="/faq" className="a-path-last">
             {"Часто задаваемые вопросы (FAQ)"}
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">
@@ -136,9 +137,9 @@ function FaqPage() {
             <p className="page-text">
               9. Гражданин может отслеживать статус зарегистрированного
               обращения, используя сервис «
-              <a href="/feedback/status" className="page-link">
+              <Link to="/feedback/status" className="page-link">
                 Проверить статус обращения
-              </a>
+              </Link>
               ».
             </p>
           </p>

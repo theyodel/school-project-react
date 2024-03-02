@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
 import logo from "/public/logo.svg";
+import { Link } from "react-router-dom";
 
 function MapPage() {
   return (
@@ -10,9 +11,9 @@ function MapPage() {
         <div className="nav-container">
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
-              <a href="/">
+              <Link to="/">
                 <img src={logo} alt="logo" />
-              </a>
+              </Link>
             </div>
             <input type="checkbox" id="nav-check" />
             <label htmlFor="nav-check" className="nav-toggler">
@@ -21,27 +22,27 @@ function MapPage() {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="/">Главная</a>
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
-                  <a href="https://foodmonitoring.ru/22393/food">Food</a>
+                  <a href="https://foodmonitoring.ru/22393/food" target="_blank">Food</a>
                 </li>
                 <li>
-                  <a href="/site-map" className="active">
+                  <Link to="/site-map" className="active">
                     Карта Сайта
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/feedback">Обращения Граждан</a>
+                  <Link to="/feedback">Обращения Граждан</Link>
                 </li>
                 <li>
-                  <a href="/feedback/faq">FAQ</a>
+                  <Link to="/feedback/faq">FAQ</Link>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <Link to="/school-food">Школьное Питание</Link>
                 </li>
                 <li>
-                  <a href="/helpful-links">Полезные Ссылки</a>
+                  <Link to="/helpful-links">Полезные Ссылки</Link>
                 </li>
               </ul>
             </nav>
@@ -63,13 +64,13 @@ function MapPage() {
         <hr className="hr-main" />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/site-map" className="a-path-last">
+          <Link to="/site-map" className="a-path-last">
             Карта сайта
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">
@@ -78,156 +79,156 @@ function MapPage() {
           <br />
 
           <div className="map-grid">
-            <a className="a-map-main" href="/">
+            <Link className="a-map-main" to="/">
               Главная
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-main"
-              href="https://foodmonitoring.ru/22393/food"
+              to="https://foodmonitoring.ru/22393/food"
             >
               Food
-            </a>
-            <a className="a-map-main" href="/feedback">
+            </Link>
+            <Link className="a-map-main" to="/feedback">
               Обращения Граждан
-            </a>
-            <a className="a-map-main" href="/feedback/faq">
+            </Link>
+            <Link className="a-map-main" to="/feedback/faq">
               Часто задаваемые вопросы (FAQ)
-            </a>
-            <a className="a-map-main">Школьное Питание</a>
-            <a href="/helpful-links" className="a-map-main">
+            </Link>
+            <Link className="a-map-main" to="/school-food">Школьное Питание</Link>
+            <Link to="/helpful-links" className="a-map-main">
               Полезные Ссылки
-            </a>
+            </Link>
 
-            <a className="a-map-main" href="/basic-information">
+            <Link className="a-map-main" to="/basic-information">
               Сведения об образовательной организации
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/school-history"
+              to="/basic-information/school-history"
             >
               История школы
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/structure-and-management"
+              to="/basic-information/structure-and-management"
             >
               Структура и органы управления образовательной организацией
-            </a>
-            <a className="a-map-thread">Документы</a>
-            <a className="a-map-thread" href="/basic-information/education">
+            </Link>
+            <Link className="a-map-thread" to="/basic-information/documents">Документы</Link>
+            <Link className="a-map-thread" to="/basic-information/education">
               Образование
-            </a>
-            <a href="/basic-information/staff" className="a-map-thread">
+            </Link>
+            <Link to="/basic-information/staff" className="a-map-thread">
               Руководство. Педагогический состав
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/technical-equipment"
+              to="/basic-information/technical-equipment"
             >
               Материально-техническое обеспечение и оснащенность
               образовательного процесса
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/technical-equipment/dnevnik.ru"
+              to="/basic-information/technical-equipment/dnevnik.ru"
             >
               Электронный дневник
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/support-measures"
+              to="/basic-information/support-measures"
             >
               Стипендии и меры поддержки
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="https://bus.gov.ru/agency/243209/plans"
+              to="https://bus.gov.ru/Linkgency/243209/plans"
             >
               Финансово-хозяйственная деятельность
-            </a>
-            <a className="a-map-thread" href="/basic-information/vacancies">
+            </Link>
+            <Link className="a-map-thread" to="/basic-information/vacancies">
               Вакантные места для приема (перевода)
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="/basic-information/available-environment"
+              to="/basic-information/Linkvailable-environment"
             >
               Доступная среда
-            </a>
+            </Link>
 
-            <a className="a-map-main" href="/for-students">
+            <Link className="a-map-main" to="/for-students">
               Обучающимся
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="for-students/reconciliation-service"
+              to="for-students/reconciliation-service"
             >
               Школьная служба примирения
-            </a>
-            <a
+            </Link>
+            <Link
               className="a-map-thread"
-              href="https://www.culture.ru/pushkinskaya-karta/afisha/arhangelskaya-oblast-severodvinsk"
+              to="https://www.culture.ru/pushkinskaya-karta/afisha/arhangelskaya-oblast-severodvinsk"
             >
               Пушкинская карта. Афиша культурных мероприятий Северодвинска.
-            </a>
+            </Link>
 
-            <a className="a-map-main" href="/for-parents">
+            <Link className="a-map-main" to="/for-parents">
               Родителям
-            </a>
-            <a href="https://edu.gov.ru/press/news/" className="a-map-thread">
+            </Link>
+            <Link to="https://edu.gov.ru/press/news/" className="a-map-thread">
               Новости Минпросвещения России
-            </a>
-            <a className="a-map-thread" href="/for-parents/ORKSE">
+            </Link>
+            <Link className="a-map-thread" to="/for-parents/ORKSE">
               ОРКСЭ
-            </a>
-            <a className="a-map-thread" href="/for-parents/about-donates">
+            </Link>
+            <Link className="a-map-thread" to="/for-parents/about-donates">
               О добровольном труде и пожертвованиях
-            </a>
-            <a className="a-map-thread" href="/for-parents/application-forms">
+            </Link>
+            <Link className="a-map-thread" to="/for-parents/application-forms">
               Бланки заявлений
-            </a>
+            </Link>
 
-            <a className="a-map-main" href="/allrussian-olympiad">
+            <Link className="a-map-main" to="/allrussian-olympiad">
               Всероссийская Олимпиада Школьников
-            </a>
+            </Link>
 
-            <a className="a-map-main">ГИА</a>
-            <a className="a-map-thread">ГИА 9</a>
-            <a className="a-map-thread">ГИА 11</a>
+            <Link to="/gia" className="a-map-main">ГИА</Link>
+            <Link to="/gia/oge" className="a-map-thread">ГИА 9</Link>
+            <Link to="/gia/ege" className="a-map-thread">ГИА 11</Link>
 
-            <a className="a-map-main">ВПР</a>
+            <Link to="" className="a-map-main">ВПР</Link>
 
-            <a className="a-map-main">Безопасность школьника</a>
-            <a className="a-map-thread">Осторожно, терроризм!</a>
-            <a className="a-map-thread">
+            <Link to="" className="a-map-main">Безопасность школьника</Link>
+            <Link to="" className="a-map-thread">Осторожно, терроризм!</Link>
+            <Link to="" className="a-map-thread">
               Безопасность в быту и на улице, пожарная безопасность
-            </a>
-            <a className="a-map-thread">Нет наркотикам</a>
-            <a className="a-map-thread">Телефоны экстренных служб</a>
-            <a className="a-map-thread">Безопасность дорожного движения</a>
-            <a className="a-map-thread">Безопасность на водных объектах</a>
-            <a className="a-map-thread">Профилактика заболеваний</a>
-            <a className="a-map-thread">Безопасность на ЖД</a>
+            </Link>
+            <Link to="" className="a-map-thread">Нет наркотикам</Link>
+            <Link to="" className="a-map-thread">Телефоны экстренных служб</Link>
+            <Link to="" className="a-map-thread">Безопасность дорожного движения</Link>
+            <Link to="" className="a-map-thread">Безопасность на водных объектах</Link>
+            <Link to="" className="a-map-thread">Профилактика заболеваний</Link>
+            <Link to="" className="a-map-thread">Безопасность на ЖД</Link>
 
-            <a className="a-map-main">Информационная безопасность</a>
-            <a className="a-map-thread">Нормативное регулирование</a>
-            <a className="a-map-thread">Локальные нормативные акты</a>
-            <a className="a-map-thread">Педагогам</a>
-            <a className="a-map-thread">Обучающимся</a>
-            <a className="a-map-thread">Родителям</a>
-            <a className="a-map-thread">Детские безопасные сайты</a>
+            <Link to="" className="a-map-main">Информационная безопасность</Link>
+            <Link to="" className="a-map-thread">Нормативное регулирование</Link>
+            <Link to="" className="a-map-thread">Локальные нормативные акты</Link>
+            <Link to="" className="a-map-thread">Педагогам</Link>
+            <Link to="" className="a-map-thread">Обучающимся</Link>
+            <Link to="" className="a-map-thread">Родителям</Link>
+            <Link to="" className="a-map-thread">Детские безопасные сайты</Link>
 
-            <a className="a-map-main">Отдых, оздоровление и занятость детей</a>
-            <a href="" className="a-map-thread">
+            <Link to="" className="a-map-main">Отдых, оздоровление и занятость детей</Link>
+            <Link to="" className="a-map-thread">
               Смена 2023
-            </a>
-            <a href="" className="a-map-thread">
+            </Link>
+            <Link to="" className="a-map-thread">
               Документы по лагерю
-            </a>
+            </Link>
 
-            <a className="a-map-main">Приём в школу</a>
+            <Link to="" className="a-map-main">Приём в школу</Link>
 
-            <a className="a-map-main">Школьный спортивный клуб</a>
+            <Link to="" className="a-map-main">Школьный спортивный клуб</Link>
           </div>
         </div>
 

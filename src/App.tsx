@@ -23,6 +23,9 @@ import OrksePage from "./pages/for-parents/ORKSE/OrksePage";
 import DonatesPage from "./pages/for-parents/about-donates/DonatesPage";
 import FormsPage from "./pages/for-parents/application-forms/FormsPage";
 import OlympiadPage from "./pages/allrussian-olympiad/OlympiadPage";
+import GiaPage from "./pages/gia/GiaPage";
+import OgePage from "./pages/gia/oge/OgePage";
+import EgePage from "./pages/gia/ege/EgePage";
 
 function App() {
     return (
@@ -32,7 +35,7 @@ function App() {
         <Route path="/school-food" element={<SchoolfoodPage />} />
         <Route path="/helpful-links" element={<LinksPage />} />
 
-        <Route path="/basic-information" element={<BasicinformationPage />}>
+        <Route path="/basic-information" element={<BasicinformationPage />} />
             <Route path="/basic-information/school-history" element={<SchoolhistoryPage />} />
             <Route path="/basic-information/structure-and-management" element={<StructureandmanagementPage />} />
             <Route path="/basic-information/documents" element={<DocumentsPage />} />
@@ -44,19 +47,24 @@ function App() {
             <Route path="/basic-information/support-measures" element={<ScholarshipPage />} />
             <Route path="/basic-information/vacancies" element={<VacanciesPage />} /> 
             <Route path="/basic-information/available-environment" element={<EnvironmentPage />} />
-        </Route>
+        
 
-        <Route path="/for-students" element={<StudentsPage />}>
+        <Route path="/for-students" element={<StudentsPage />}/>
             <Route path="/for-students/reconciliation-service" element={<ReconcilPage />} />
-        </Route>
+        
 
-        <Route path="/for-parents" element={<ParentsPage />}>
+        <Route path="/for-parents" element={<ParentsPage />}/>
             <Route path="/for-parents/orkse" element={<OrksePage />} />
             <Route path="/for-parents/about-donates" element={<DonatesPage />} />
             <Route path="/for-parents/application-forms" element={<FormsPage />} />
-        </Route>
+        
 
         <Route path="/allrussian-olympiad/" element={<OlympiadPage />} />
+
+        <Route path="/gia" element={<GiaPage />}/>
+            <Route path="/gia/oge" element={<OgePage />} />
+            <Route path="/gia/ege" element={<EgePage />} />
+        
     </Routes>
     )
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <>
@@ -5,9 +7,9 @@ function Navbar() {
         <div className="nav-container">
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
-              <a href="/">
+              <Link to="/">
                 <img src="/logo.png" alt="logo" />
-              </a>
+              </Link>
             </div>
             <input type="checkbox" id="nav-check" />
             <label htmlFor="nav-check" className="nav-toggler">
@@ -16,25 +18,25 @@ function Navbar() {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="/">Главная</a>
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/site-map">Карта Сайта</a>
+                  <Link to="/site-map">Карта Сайта</Link>
                 </li>
                 <li>
-                  <a href="/feedback">Обращения Граждан</a>
+                  <Link to="/feedback">Обращения Граждан</Link>
                 </li>
                 <li>
-                  <a href="/feedback/faq">FAQ</a>
+                  <Link to="/feedback/faq">FAQ</Link>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <Link to="/school-food">Школьное Питание</Link>
                 </li>
                 <li>
-                  <a href="/helpful-links">Полезные Ссылки</a>
+                  <Link to="/helpful-links">Полезные Ссылки</Link>
                 </li>
               </ul>
             </nav>

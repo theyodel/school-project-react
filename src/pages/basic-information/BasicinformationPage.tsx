@@ -103,6 +103,8 @@ function BasicinformationPage() {
         </div>
       </main>
       <Footer />
+
+      
     </>
   );
 }

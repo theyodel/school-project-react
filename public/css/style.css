@@ -172,7 +172,7 @@ header ul {
 }
 .ffooter {
   background-color: var(--school-blue);
-  background-size: 50%;
+  background-size: 100%;
   background-image: url("/public/header-bg-pattern.png");
   background-repeat: round;
   margin-top: 5rem;

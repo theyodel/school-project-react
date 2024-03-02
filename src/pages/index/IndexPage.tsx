@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
 import logo from "/public/logo.svg";
+import { Link, Outlet } from "react-router-dom";
 
 function IndexPage() {
   return (
@@ -8,9 +9,9 @@ function IndexPage() {
         <div className="nav-container">
           <div className="nav-row align-items-center justify-content-between">
             <div className="logo">
-              <a href="/">
+              <Link to="/">
                 <img src={logo} alt="logo" />
-              </a>
+              </Link>
             </div>
             <input type="checkbox" id="nav-check" />
             <label htmlFor="nav-check" className="nav-toggler">
@@ -19,27 +20,27 @@ function IndexPage() {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="/" className="active">
+                  <Link to="/" className="active">
                     Главная
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/site-map">Карта Сайта</a>
+                  <Link to="/site-map">Карта Сайта</Link>
                 </li>
                 <li>
-                  <a href="/feedback">Обращения Граждан</a>
+                  <Link to="/feedback">Обращения Граждан</Link>
                 </li>
                 <li>
-                  <a href="/feedback/faq">FAQ</a>
+                  <Link to="/feedback/faq">FAQ</Link>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <Link to="/school-food">Школьное Питание</Link>
                 </li>
                 <li>
-                  <a href="/helpful-links">Полезные Ссылки</a>
+                  <Link to="/helpful-links">Полезные Ссылки</Link>
                 </li>
               </ul>
             </nav>
@@ -61,9 +62,9 @@ function IndexPage() {
         <hr className="hr-main" />
 
         <div className="div-path">
-          <a href="/" className="a-path a-path-last">
+          <Link to="/" className="a-path a-path-last">
             Главная
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">
@@ -181,7 +182,11 @@ function IndexPage() {
 
         <Footer />
       </main>
+      
+      <Outlet />
     </>
+
+    
   );
 }
 

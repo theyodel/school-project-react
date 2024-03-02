@@ -7,6 +7,7 @@ import * as formik from "formik";
 import * as yup from "yup";
 import Footer from "../../components/Footer";
 import logo from "/public/logo.svg";
+import { Link } from "react-router-dom";
 
 function FeedbackPage() {
   const { Formik } = formik;
@@ -38,27 +39,27 @@ function FeedbackPage() {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="/">Главная</a>
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
                   <a href="https://foodmonitoring.ru/22393/food">Food</a>
                 </li>
                 <li>
-                  <a href="/site-map">Карта Сайта</a>
+                  <Link to="/site-map">Карта Сайта</Link>
                 </li>
                 <li>
-                  <a href="/feedback" className="active">
+                  <Link to="/feedback" className="active">
                     Обращения Граждан
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/feedback/faq">FAQ</a>
+                  <Link to="/feedback/faq">FAQ</Link>
                 </li>
                 <li>
-                  <a href="/school-food">Школьное Питание</a>
+                  <Link to="/school-food">Школьное Питание</Link>
                 </li>
                 <li>
-                  <a href="/helpful-links">Полезные Ссылки</a>
+                  <Link to="/helpful-links">Полезные Ссылки</Link>
                 </li>
               </ul>
             </nav>

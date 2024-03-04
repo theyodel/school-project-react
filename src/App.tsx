@@ -65,6 +65,7 @@ function App() {
             <Route path="/gia/oge" element={<OgePage />} />
             <Route path="/gia/ege" element={<EgePage />} />
         
+        
     </Routes>
     )
 }

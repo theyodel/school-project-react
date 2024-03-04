@@ -171,10 +171,8 @@ header ul {
   list-style: none;
 }
 .ffooter {
-  background-color: var(--school-blue);
-  background-size: 100%;
-  background-image: url("/public/header-bg-pattern.png");
-  background-repeat: round;
+  background-size: 20%;
+  background: var(--school-blue) url("/public/header-bg-pattern.png") repeat;
   margin-top: 5rem;
   padding-top: 3rem;
   padding-bottom: 2rem;

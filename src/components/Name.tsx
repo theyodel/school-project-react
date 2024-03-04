@@ -2,7 +2,7 @@ function Name() {
   return (
     <>
       <div className="div-name">
-        <img className="name-img" src="/public/logo.png" alt="logo" />
+        <img className="name-img" src="/logo.png" alt="logo" />
         <p className="h2-name">
           Муниципальное автономное общеобразовательное учреждение
           <h2 className="h1-name">

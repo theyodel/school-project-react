@@ -1,4 +1,5 @@
 import Footer from "../../../components/Footer";
+import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
 
 function SchoolhistoryPage() {
@@ -6,17 +7,8 @@ function SchoolhistoryPage() {
     <>
       <Navbar />
       <main>
-        <div className="div-name">
-          <img className="name-img" src="/public/logo.png" alt="logo" />
-          <p className="h2-name">
-            Муниципальное автономное общеобразовательное учреждение
-            <h2 className="h1-name">
-              «Средняя общеобразовательная школа № 6 с углубленным изучением
-              иностранных языков»
-            </h2>
-          </p>
-        </div>
-        <hr className="hr-main" />
+        <Name />
+        
         <div className="div-path">
           <a href="/" className="a-path">
             Главная
@@ -33,7 +25,7 @@ function SchoolhistoryPage() {
         <div className="page-content">
           <h1 className="page-title">История школы</h1>
           <br />
-          <img className="page-img" alt="image-1" src="/public/img1.jpg" />
+          <img className="page-img" alt="image-1" src="/`img1.jpg" />
           <br />
           <p className="page-text bold italic text-center">
             Школа, которая «всем нам распахнула двери…»

@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Name from "../../components/Name";
 import Navbar from "../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function StudentsPage() {
   return (
@@ -10,13 +11,13 @@ function StudentsPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-students" className="a-path-last">
+          <Link to="/for-students" className="a-path-last">
             Обучающимся
-          </a>
+          </Link>
         </div>
         <div className="page-content">
           <p className="page-title">Обучающимся</p>

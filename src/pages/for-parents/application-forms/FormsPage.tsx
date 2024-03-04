@@ -1,6 +1,7 @@
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function FormsPage() {
   return (
@@ -11,17 +12,17 @@ function FormsPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-parents" className="a-path">
+          <Link to="/for-parents" className="a-path">
             Родителям
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-parents/application-forms" className="a-path-last">
+          <Link to="/for-parents/application-forms" className="a-path-last">
             Бланки заявлений
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

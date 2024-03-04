@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
-import logo from "/public/logo.svg";
+import Name from "../../components/Name";
+import logo from "/logo.png";
 import { Link, Outlet } from "react-router-dom";
 
 function IndexPage() {
@@ -49,17 +50,7 @@ function IndexPage() {
       </header>
 
       <main>
-        <div className="div-name">
-          <img className="name-img" src="/public/logo.png" alt="logo" />
-          <p className="h2-name">
-            Муниципальное автономное общеобразовательное учреждение
-            <h2 className="h1-name">
-              «Средняя общеобразовательная школа № 6 с углубленным изучением
-              иностранных языков»
-            </h2>
-          </p>
-        </div>
-        <hr className="hr-main" />
+        <Name />
 
         <div className="div-path">
           <Link to="/" className="a-path a-path-last">
@@ -177,6 +168,7 @@ function IndexPage() {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
 

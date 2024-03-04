@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import * as formik from "formik";
 import * as yup from "yup";
 import Footer from "../../components/Footer";
-import logo from "/public/logo.svg";
+import logo from "/logo.png";
 import { Link } from "react-router-dom";
 
 function FeedbackPage() {
@@ -69,7 +69,7 @@ function FeedbackPage() {
 
       <main>
         <div className="div-name">
-          <img className="name-img" src="/public/logo.png" alt="logo" />
+          <img className="name-img" src="/logo.png" alt="logo" />
           <p className="h2-name">
             Муниципальное автономное общеобразовательное учреждение
             <h2 className="h1-name">

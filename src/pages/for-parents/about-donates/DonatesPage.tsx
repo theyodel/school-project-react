@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
@@ -10,17 +11,17 @@ function DonatesPage() {
       <main>
         <Name />
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-parents" className="a-path">
+          <Link to="/for-parents" className="a-path">
             Родителям
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-parents/about-donates" className="a-path-last">
+          <Link to="/for-parents/about-donates" className="a-path-last">
             О добровольном труде и пожертвованиях
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

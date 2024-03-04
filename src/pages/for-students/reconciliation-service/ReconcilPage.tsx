@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
@@ -10,20 +11,20 @@ function ReconcilPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/for-students" className="a-path">
+          <Link to="/for-students" className="a-path">
             Обучающимся
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a
-            href="/for-students/reconciliation-service"
+          <Link 
+            to="/for-students/reconciliation-service"
             className="a-path-last"
           >
             Школьная служба примирения
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

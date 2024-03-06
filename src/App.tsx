@@ -26,6 +26,9 @@ import OlympiadPage from "./pages/allrussian-olympiad/OlympiadPage";
 import GiaPage from "./pages/gia/GiaPage";
 import OgePage from "./pages/gia/oge/OgePage";
 import EgePage from "./pages/gia/ege/EgePage";
+import FeedbackPage from "./pages/feedback/FeedbackPage";
+import FaqPage from "./pages/feedback/faq/FaqPage";
+import FeedbackStatusPage from "./pages/feedback/status/FeedbackStatusPage";
 
 function App() {
     return (
@@ -34,6 +37,9 @@ function App() {
         <Route path="/site-map" element={<MapPage />}/>
         <Route path="/school-food" element={<SchoolfoodPage />} />
         <Route path="/helpful-links" element={<LinksPage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
+        <Route path="/feedback/faq" element={<FaqPage />} />
+        <Route path="/feedback/status" element={<FeedbackStatusPage />} />
 
         <Route path="/basic-information" element={<BasicinformationPage />} />
             <Route path="/basic-information/school-history" element={<SchoolhistoryPage />} />

@@ -6,6 +6,10 @@
   --color-1: #ffffff;
 }
 
+body {
+  transition: 0.5s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -258,17 +262,32 @@ header ul {
     width: 50%;
     margin-bottom: 30px;
   }
+  .ffooter-col-1 ul li a {
+    font-size: 17px !important;
+  }
+
   .ffooter-col-2 {
     width: 50%;
     margin-bottom: 30px;
+  }
+  .ffooter-col-2 ul li a {
+    font-size: 17px !important;
   }
 }
 @media (max-width: 574px) {
   .ffooter-col-1 {
     width: 100%;
+    font-size: 17px !important;
   }
+  .ffooter-col-1 ul li a {
+    font-size: 17px !important;
+  }
+
   .ffooter-col-2 {
     width: 100%;
+  }
+  .ffooter-col-2 ul li a {
+    font-size: 17px !important;
   }
 }
 

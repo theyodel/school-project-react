@@ -84,6 +84,7 @@ function MapPage() {
             </Link>
             <Link
               className="a-map-main"
+              target="_blank"
               to="https://foodmonitoring.ru/22393/food"
             >
               Food
@@ -151,7 +152,7 @@ function MapPage() {
             </Link>
             <Link
               className="a-map-thread"
-              to="/basic-information/Linkvailable-environment"
+              to="/basic-information/available-environment"
             >
               Доступная среда
             </Link>

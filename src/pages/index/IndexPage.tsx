@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import Name from "../../components/Name";
 import logo from "/logo.png";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function IndexPage() {
   return (
@@ -48,7 +48,6 @@ function IndexPage() {
           </div>
         </div>
       </header>
-
       <main>
         <Name />
 
@@ -76,109 +75,151 @@ function IndexPage() {
 
           <br />
           <br />
-          <p className="category-title">Новости и События</p>
-
-          <div className="cccard__container">
-            <div className="cccard">
-              <img src="/public/news-1.jpg" />
-              <div className="cccard__data">
-                <h3>Title</h3>
-                <p>Some description</p>
+          <p className="category-title">
+            Новости и События
+            <hr />
+          </p>
+          <div className="cardcontainer">
+            <div className="card">
+              <div className="card-header">
+                <img
+                  src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+                  alt="rover"
+                />
               </div>
-              <div className="card-footer">
-                <p className="card-category">
-                  <abbr data-title="Категория: Новости">Новости</abbr>
+              <div className="card-body">
+                <span className="tag tag-teal">Technology</span>
+                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+                <p>An exploration into the truck's polarising design</p>
+                <div className="user">
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                    alt="user"
+                  />
+                  <div className="user-info">
+                    <h5>July Dec</h5>
+                    <small>5 марта 2024, 14:35</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-header">
+                <img
+                  src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+                  alt="rover"
+                />
+              </div>
+              <div className="card-body">
+                <span className="tag tag-teal">Technology</span>
+                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+                <p>An exploration into the truck's polarising design</p>
+                <div className="user">
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                    alt="user"
+                  />
+                  <div className="user-info">
+                    <h5>July Dec</h5>
+                    <small>5 марта 2024, 14:35</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-header">
+                <img
+                  src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+                  alt="rover"
+                />
+              </div>
+              <div className="card-body">
+                <span className="tag tag-teal">Technology</span>
+                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+                <p>An exploration into the truck's polarising design</p>
+                <div className="user">
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                    alt="user"
+                  />
+                  <div className="user-info">
+                    <h5>July Dec</h5>
+                    <small>5 марта 2024, 14:35</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-header">
+                <img
+                  src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+                  alt="rover"
+                />
+              </div>
+              <div className="card-body">
+                <span className="tag tag-teal">Technology</span>
+                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+                <p>An exploration into the truck's polarising design</p>
+                <div className="user">
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                    alt="user"
+                  />
+                  <div className="user-info">
+                    <h5>July Dec</h5>
+                    <small>5 марта 2024, 14:35</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-header">
+                <img
+                  src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+                  alt="rover"
+                />
+              </div>
+              <div className="card-body">
+                <span className="tag tag-teal">Technology</span>
+                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+                <p>
+                  An exploration into the truck's polarising design{" "}
+                  <a href="#">Read More...</a>
                 </p>
-                <p className="card-dot">|</p>
-                <p className="card-date">
-                  <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                </p>
+                <div className="user">
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                    alt="user"
+                  />
+                  <div className="user-info">
+                    <h5>July Dec</h5>
+                    <small>5 марта 2024, 14:35</small>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+          <a href="https://vk.com/sevskschool6" className="btncenter">
+            <button className="bn632-hover bn26">Больше новостей</button>
+          </a>
+          <br />
 
-            <div className="cccard__container">
-              <div className="cccard">
-                <img src="/public/news-1.jpg" />
-                <div className="cccard__data">
-                  <h3>Title</h3>
-                  <p>Some description</p>
-                </div>
-                <div className="card-footer">
-                  <p className="card-category">
-                    <abbr data-title="Категория: Новости">Новости</abbr>
-                  </p>
-                  <p className="card-dot">|</p>
-                  <p className="card-date">
-                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="cccard__container">
-              <div className="cccard">
-                <img src="/public/news-1.jpg" />
-                <div className="cccard__data">
-                  <h3>Title</h3>
-                  <p>Some description</p>
-                </div>
-                <div className="card-footer">
-                  <p className="card-category">
-                    <abbr data-title="Категория: Новости">Новости</abbr>
-                  </p>
-                  <p className="card-dot">|</p>
-                  <p className="card-date">
-                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="cccard__container">
-              <div className="cccard">
-                <img src="/public/news-1.jpg" />
-                <div className="cccard__data">
-                  <h3>Title</h3>
-                  <p>Some description</p>
-                </div>
-                <div className="card-footer">
-                  <p className="card-category">
-                    <abbr data-title="Категория: Новости">Новости</abbr>
-                  </p>
-                  <p className="card-dot">|</p>
-                  <p className="card-date">
-                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="cccard__container">
-              <div className="cccard">
-                <img src="/public/news-1.jpg" />
-                <div className="cccard__data">
-                  <h3>Title</h3>
-                  <p>Some description</p>
-                </div>
-                <div className="card-footer">
-                  <p className="card-category">
-                    <abbr data-title="Категория: Новости">Новости</abbr>
-                  </p>
-                  <p className="card-dot">|</p>
-                  <p className="card-date">
-                    <abbr data-title="16 января 2024г">16 янв. 2024</abbr>
-                  </p>
-                </div>
-              </div>
-            </div>
-            
+          <br />
+          <br />
+          <p className="category-title">Мы в Соц. Сетях</p>
+          <hr />
+          <div className="socialbtns">
+            <ul>
+              <li>
+                <a href="#" className="fa fa-lg fa-vk"></a>
+              </li>
+            </ul>
           </div>
         </div>
 
         <Footer />
       </main>
-      
-      <Outlet />
     </>
-
-    
   );
 }
 

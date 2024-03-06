@@ -27,7 +27,6 @@
 ```
 npm i
 npm i react-router-dom
-npm i @tanstack/react-query
 ```
 
 3. Не совершайте моих ошибок с подключением различных готовых шаблонов, по типу `react-bootstrap`

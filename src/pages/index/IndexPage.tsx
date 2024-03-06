@@ -208,13 +208,6 @@ function IndexPage() {
           <br />
           <p className="category-title">Мы в Соц. Сетях</p>
           <hr />
-          <div className="socialbtns">
-            <ul>
-              <li>
-                <a href="#" className="fa fa-lg fa-vk"></a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <Footer />

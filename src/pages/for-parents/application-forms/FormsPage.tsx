@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function FormsPage() {
   return (
     <>
+      <title>Блакни Заявлений</title>
+
       <Navbar />
 
       <main>

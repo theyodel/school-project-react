@@ -3,17 +3,19 @@ import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
 
 function OgePage() {
-    return(
-        <>
-        <Navbar />
+  return (
+    <>
+      <title>Обязательный Государственный Экзамен</title>
 
-        <main>
-            <Name />
+      <Navbar />
 
-            <Footer />
-        </main>
-        </>
-    )
+      <main>
+        <Name />
+
+        <Footer />
+      </main>
+    </>
+  );
 }
 
 export default OgePage;

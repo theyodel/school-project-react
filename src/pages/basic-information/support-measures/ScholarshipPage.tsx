@@ -5,6 +5,8 @@ import Navbar from "../../../components/Navbar";
 function ScholarshipPage() {
   return (
     <>
+      <title>Стипендии и Меры Поддержки</title>
+
       <Navbar />
       <main>
         <Name />

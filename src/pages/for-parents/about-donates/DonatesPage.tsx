@@ -6,6 +6,8 @@ import Navbar from "../../../components/Navbar";
 function DonatesPage() {
   return (
     <>
+      <title>О Добровольном Труде и Пожертвованиях</title>
+
       <Navbar />
 
       <main>

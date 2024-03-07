@@ -5,6 +5,8 @@ import Navbar from "../../../components/Navbar";
 function EnvironmentPage() {
   return (
     <>
+      <title>Доступная Среда</title>
+
       <Navbar />
       <main>
         <Name />

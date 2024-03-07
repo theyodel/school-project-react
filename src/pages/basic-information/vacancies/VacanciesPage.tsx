@@ -5,6 +5,8 @@ import Navbar from "../../../components/Navbar";
 function VacanciesPage() {
   return (
     <>
+      <title>Вакантные Места для Приёма (Перевода)</title>
+
       <Navbar />
       <main>
         <Name />

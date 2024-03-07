@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function IndexPage() {
   return (
     <>
+      <title>МАОУ «СОШ №6»</title>
+
       <header className="nav-header">
         <div className="nav-container">
           <div className="nav-row align-items-center justify-content-between">
@@ -206,8 +208,12 @@ function IndexPage() {
 
           <br />
           <br />
+
           <p className="category-title">Мы в Соц. Сетях</p>
           <hr />
+          <br />
+          <br />
+          <a href="#" className="social-button ico-vk-vk"></a>
         </div>
 
         <Footer />

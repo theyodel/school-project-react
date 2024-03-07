@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function StudentsPage() {
   return (
     <>
+      <title>Обучающимся</title>
+
       <Navbar />
       <main>
         <Name />

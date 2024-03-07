@@ -3,17 +3,19 @@ import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
 
 function EgePage() {
-    return(
-        <>
-        <Navbar />
+  return (
+    <>
+      <title>Единый Государственный Экзамен</title>
 
-        <main>
-            <Name />
+      <Navbar />
 
-            <Footer />
-        </main>
-        </>
-    )
+      <main>
+        <Name />
+
+        <Footer />
+      </main>
+    </>
+  );
 }
 
 export default EgePage;

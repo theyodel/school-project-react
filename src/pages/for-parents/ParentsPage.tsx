@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function ParentsPage() {
   return (
     <>
+      <title>Родителям</title>
+
       <Navbar />
 
       <main>

@@ -31,49 +31,64 @@ import FaqPage from "./pages/feedback/faq/FaqPage";
 import FeedbackStatusPage from "./pages/feedback/status/FeedbackStatusPage";
 
 function App() {
-    return (
+  return (
     <Routes>
-        <Route path="/" element={<IndexPage />} />
-        <Route path="/site-map" element={<MapPage />}/>
-        <Route path="/school-food" element={<SchoolfoodPage />} />
-        <Route path="/helpful-links" element={<LinksPage />} />
-        <Route path="/feedback" element={<FeedbackPage />} />
-        <Route path="/feedback/faq" element={<FaqPage />} />
-        <Route path="/feedback/status" element={<FeedbackStatusPage />} />
+      <Route path="/" element={<IndexPage />} />
+      <Route path="/site-map" element={<MapPage />} />
+      <Route path="/school-food" element={<SchoolfoodPage />} />
+      <Route path="/helpful-links" element={<LinksPage />} />
+      <Route path="/feedback" element={<FeedbackPage />} />
+      <Route path="/feedback/faq" element={<FaqPage />} />
+      <Route path="/feedback/status" element={<FeedbackStatusPage />} />
 
-        <Route path="/basic-information" element={<BasicinformationPage />} />
-            <Route path="/basic-information/school-history" element={<SchoolhistoryPage />} />
-            <Route path="/basic-information/structure-and-management" element={<StructureandmanagementPage />} />
-            <Route path="/basic-information/documents" element={<DocumentsPage />} />
-            <Route path="/basic-information/education" element={<EducationPage />} />
-            <Route path="/basic-information/staff" element={<StaffPage />} /> 
-            <Route path="/basic-information/technical-equipment" element={<EquipmentPage />}>
-                <Route path="/basic-information/technical-equipment/dnevnik.ru" element={<DnevnikruPage />} />
-            </Route>
-            <Route path="/basic-information/support-measures" element={<ScholarshipPage />} />
-            <Route path="/basic-information/vacancies" element={<VacanciesPage />} /> 
-            <Route path="/basic-information/available-environment" element={<EnvironmentPage />} />
-        
+      <Route path="/basic-information" element={<BasicinformationPage />} />
+      <Route
+        path="/basic-information/school-history"
+        element={<SchoolhistoryPage />}
+      />
+      <Route
+        path="/basic-information/structure-and-management"
+        element={<StructureandmanagementPage />}
+      />
+      <Route path="/basic-information/documents" element={<DocumentsPage />} />
+      <Route path="/basic-information/education" element={<EducationPage />} />
+      <Route path="/basic-information/staff" element={<StaffPage />} />
+      <Route
+        path="/basic-information/technical-equipment"
+        element={<EquipmentPage />}
+      />
+      <Route
+        path="/basic-information/technical-equipment/dnevnik.ru"
+        element={<DnevnikruPage />}
+      />
+      <Route
+        path="/basic-information/support-measures"
+        element={<ScholarshipPage />}
+      />
+      <Route path="/basic-information/vacancies" element={<VacanciesPage />} />
+      <Route
+        path="/basic-information/available-environment"
+        element={<EnvironmentPage />}
+      />
 
-        <Route path="/for-students" element={<StudentsPage />}/>
-            <Route path="/for-students/reconciliation-service" element={<ReconcilPage />} />
-        
+      <Route path="/for-students" element={<StudentsPage />} />
+      <Route
+        path="/for-students/reconciliation-service"
+        element={<ReconcilPage />}
+      />
 
-        <Route path="/for-parents" element={<ParentsPage />}/>
-            <Route path="/for-parents/orkse" element={<OrksePage />} />
-            <Route path="/for-parents/about-donates" element={<DonatesPage />} />
-            <Route path="/for-parents/application-forms" element={<FormsPage />} />
-        
+      <Route path="/for-parents" element={<ParentsPage />} />
+      <Route path="/for-parents/orkse" element={<OrksePage />} />
+      <Route path="/for-parents/about-donates" element={<DonatesPage />} />
+      <Route path="/for-parents/application-forms" element={<FormsPage />} />
 
-        <Route path="/allrussian-olympiad/" element={<OlympiadPage />} />
+      <Route path="/allrussian-olympiad/" element={<OlympiadPage />} />
 
-        <Route path="/gia" element={<GiaPage />}/>
-            <Route path="/gia/oge" element={<OgePage />} />
-            <Route path="/gia/ege" element={<EgePage />} />
-        
-        
+      <Route path="/gia" element={<GiaPage />} />
+      <Route path="/gia/oge" element={<OgePage />} />
+      <Route path="/gia/ege" element={<EgePage />} />
     </Routes>
-    )
+  );
 }
 
 export default App;

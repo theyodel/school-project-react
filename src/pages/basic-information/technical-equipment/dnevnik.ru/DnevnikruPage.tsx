@@ -5,6 +5,8 @@ import Navbar from "../../../../components/Navbar";
 function DnevnikruPage() {
   return (
     <>
+      <title>Dnevnik.ru</title>
+
       <Navbar />
       <main>
         <Name />

@@ -558,6 +558,7 @@ li {
   color: #000000;
   list-style-type: circle;
   list-style-position: outside;
+  margin-bottom: 12px;
 }
 
 .btncenter {
@@ -606,4 +607,35 @@ li {
     #3f86ed
   );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.social-button {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  background: #118ec7;
+  border: none;
+  line-height: 54px;
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
+  /* Скорость анимации */
+  -webkit-transition: box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+  -moz-transition: box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+  margin-bottom: 10px;
+}
+
+.social-button:hover,
+.social-button:focus {
+  text-decoration: none !important;
+  background-color: rgba(255, 255, 255, 0);
+  color: #118ec7;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 0 0 3px #118ec7;
+  border: none;
 }

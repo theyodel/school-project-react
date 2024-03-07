@@ -110,7 +110,7 @@ header ul {
   transition: 0.3s;
 }
 .nav-toggler:hover {
-  box-shadow: 0 0 15px #0000006b;
+  box-shadow: 0 0 5px #0000003f;
 }
 .nav-toggler span::before,
 .nav-toggler span::after {
@@ -150,7 +150,7 @@ header ul {
     visibility: visible;
   }
   .nav-header #nav-check:focus ~ .nav-toggler {
-    box-shadow: 0 0 15px #0000006b;
+    box-shadow: 0 0 5px #0000003f;
   }
   .nav-header #nav-check:checked ~ .nav-toggler span {
     background-color: transparent;

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function OlympiadPage() {
   return (
     <>
+      <title>Всероссийская Олимпиада Школьников</title>
+
       <Navbar />
 
       <main>

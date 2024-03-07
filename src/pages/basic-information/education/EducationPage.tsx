@@ -5,6 +5,8 @@ import Navbar from "../../../components/Navbar";
 function EducationPage() {
   return (
     <>
+      <title>Образование</title>
+
       <Navbar />
       <main>
         <Name />

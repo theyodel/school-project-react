@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 function OrksePage() {
   return (
     <>
+      <title>ОРКСЭ</title>
+
       <Navbar />
 
       <main>

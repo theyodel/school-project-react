@@ -5,6 +5,8 @@ import Navbar from "../../../components/Navbar";
 function DocumentsPage() {
   return (
     <>
+      <title>Документы</title>
+
       <Navbar />
       <Name />
 

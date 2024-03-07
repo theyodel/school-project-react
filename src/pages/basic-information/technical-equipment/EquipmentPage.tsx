@@ -5,6 +5,11 @@ import Navbar from "../../../components/Navbar";
 function EquipmentPage() {
   return (
     <>
+      <title>
+        Материально-техническое Обеспечение и Оснащенность Образовательного
+        Процесса
+      </title>
+
       <Navbar />
       <main>
         <Name />

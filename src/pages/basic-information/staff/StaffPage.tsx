@@ -5,6 +5,8 @@ import Name from "../../../components/Name";
 function StaffPage() {
   return (
     <>
+      <title>Руководство. Педагогический Состав</title>
+
       <Navbar />
       <main>
         <Name />

@@ -5,6 +5,8 @@ import Navbar from "../../components/Navbar";
 function BasicinformationPage() {
   return (
     <>
+      <title>Сведения об ОО</title>
+
       <Navbar />
       <main>
         <Name />
@@ -94,8 +96,6 @@ function BasicinformationPage() {
         </div>
       </main>
       <Footer />
-
-      
     </>
   );
 }

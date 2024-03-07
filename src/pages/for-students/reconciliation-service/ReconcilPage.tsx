@@ -6,6 +6,8 @@ import Navbar from "../../../components/Navbar";
 function ReconcilPage() {
   return (
     <>
+      <title>Школьная Служба Примирения</title>
+
       <Navbar />
       <main>
         <Name />
@@ -19,7 +21,7 @@ function ReconcilPage() {
             Обучающимся
           </Link>
           <a className="path-dot">&middot;</a>
-          <Link 
+          <Link
             to="/for-students/reconciliation-service"
             className="a-path-last"
           >

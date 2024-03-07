@@ -5,10 +5,12 @@ import Navbar from "../../../components/Navbar";
 function StructureandmanagementPage() {
   return (
     <>
+      <title>Структура и Органы Управления</title>
+
       <Navbar />
       <main>
         <Name />
-        
+
         <div className="div-path">
           <a href="/" className="a-path">
             Главная

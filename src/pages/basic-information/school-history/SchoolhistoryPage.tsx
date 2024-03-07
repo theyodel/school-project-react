@@ -5,10 +5,12 @@ import Navbar from "../../../components/Navbar";
 function SchoolhistoryPage() {
   return (
     <>
+      <title>История школы</title>
+
       <Navbar />
       <main>
         <Name />
-        
+
         <div className="div-path">
           <a href="/" className="a-path">
             Главная

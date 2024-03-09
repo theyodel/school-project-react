@@ -1,6 +1,7 @@
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function EquipmentPage() {
   return (
@@ -15,21 +16,21 @@ function EquipmentPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information" className="a-path">
+          <Link to="/basic-information" className="a-path">
             Сведения об ОО
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a
-            href="/basic-information/technical-equipment"
+          <Link
+            to="/basic-information/technical-equipment"
             className="a-path-last"
           >
             Материально-техническое обеспечение и оснащённость образовательного
             процесса
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">
@@ -312,9 +313,9 @@ function EquipmentPage() {
           </p>
           <ul>
             <li>
-              <a href="/school-food" className="page-link">
+              <Link to="/school-food" className="page-link">
                 Питание в МАОУ «СОШ № 6»
-              </a>
+              </Link>
             </li>
           </ul>
           <br />

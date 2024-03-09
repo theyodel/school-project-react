@@ -1,6 +1,7 @@
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
 import Navbar from "../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function VacanciesPage() {
   return (
@@ -12,17 +13,20 @@ function VacanciesPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information" className="a-path">
+          <Link to="/basic-information" className="a-path">
             Сведения об ОО
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information/support-measures" className="a-path-last">
+          <Link
+            to="/basic-information/support-measures"
+            className="a-path-last"
+          >
             Вакантные места для приема (перевода)
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

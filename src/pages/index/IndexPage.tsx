@@ -1,6 +1,8 @@
 import Footer from "../../components/Footer";
 import Name from "../../components/Name";
 import logo from "/logo.png";
+import vklogo from "/vklogo.svg";
+import sitelogo from "/sitelogo.png";
 import { Link } from "react-router-dom";
 
 function IndexPage() {
@@ -213,7 +215,24 @@ function IndexPage() {
           <hr />
           <br />
           <br />
-          <a href="#" className="social-button ico-vk-vk"></a>
+          <div className="sociallinks">
+            <a href="https://vk.com/sevskschool6">
+              <img
+                src={vklogo}
+                alt="VK Logo"
+                title="Группа ВКонтакте"
+                className="vklogo"
+              />
+            </a>
+            <Link to="/">
+              <img
+                src={sitelogo}
+                alt="Наш Сайт"
+                title="Наш Сайт"
+                className="vklogo"
+              />
+            </Link>
+          </div>
         </div>
 
         <Footer />

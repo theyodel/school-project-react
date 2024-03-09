@@ -1,6 +1,7 @@
 import Footer from "../../../../components/Footer";
 import Name from "../../../../components/Name";
 import Navbar from "../../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function DnevnikruPage() {
   return (
@@ -12,20 +13,20 @@ function DnevnikruPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information" className="a-path">
+          <Link to="/basic-information" className="a-path">
             Сведения об ОО
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a
-            href="/basic-information/technical-equipment/dnevnik.ru"
+          <Link
+            to="/basic-information/technical-equipment/dnevnik.ru"
             className="a-path-last"
           >
             Электронный дневник
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

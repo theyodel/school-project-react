@@ -1,6 +1,7 @@
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import Name from "../../../components/Name";
+import { Link } from "react-router-dom";
 
 function StaffPage() {
   return (
@@ -12,17 +13,17 @@ function StaffPage() {
         <Name />
 
         <div className="div-path">
-          <a href="/" className="a-path">
+          <Link to="/" className="a-path">
             Главная
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information" className="a-path">
+          <Link to="/basic-information" className="a-path">
             Сведения об ОО
-          </a>
+          </Link>
           <a className="path-dot">&middot;</a>
-          <a href="/basic-information/staff" className="a-path-last">
+          <Link to="/basic-information/staff" className="a-path-last">
             Руководство. Педагогический состав
-          </a>
+          </Link>
         </div>
 
         <div className="page-content">

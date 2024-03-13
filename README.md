@@ -10,6 +10,7 @@
   ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
   ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript)&nbsp;
 - Тестовый сервер: https://yodelproject.github.io/
+- Билд: https://github.com/yodelproject/yodelproject.github.io/
 
 # Аспекты работы
 

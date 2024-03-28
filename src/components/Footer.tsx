@@ -12,7 +12,12 @@ function Footer() {
                   <Link to="/">Главная</Link>
                 </li>
                 <li>
-                  <a target="_blank" href="https://foodmonitoring.ru/22393/food">Food</a>
+                  <a
+                    target="_blank"
+                    href="https://foodmonitoring.ru/22393/food"
+                  >
+                    Food
+                  </a>
                 </li>
                 <li>
                   <Link to="/site-map">Карта Сайта</Link>
@@ -55,10 +60,6 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="hr-footer" />
-        <p className="footer-copyright">
-          <h5>© Заварзин А.В., 2023-2024</h5>
-        </p>
       </footer>
     </>
   );

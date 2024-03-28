@@ -28,7 +28,7 @@ function SchoolhistoryPage() {
         <div className="page-content">
           <h1 className="page-title">История школы</h1>
           <br />
-          <img className="page-img" alt="image-1" src="/img1.jpg" />
+          <img className="page-img" src="/img1.png" alt="image-1" />
           <br />
           <p className="page-text bold italic text-center">
             Школа, которая «всем нам распахнула двери…»

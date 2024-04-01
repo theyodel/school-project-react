@@ -623,3 +623,8 @@ li {
   transition: 0.3s;
   background-color: transparent;
 }
+
+.linkcard {
+  text-decoration: none;
+  color: #000000;
+}

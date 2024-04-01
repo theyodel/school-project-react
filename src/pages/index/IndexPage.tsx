@@ -142,31 +142,33 @@ function IndexPage() {
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="card-header">
-                <img
-                  src="https://sun9-36.userapi.com/impg/l9s9tVmh426naqRcx6zefrK5WSMFQirDFEcXTg/27CuAmjccR8.jpg?size=807x538&quality=95&sign=71d6166cd6c7274ec7fb1b1d42386e83&c_uniq_tag=RZe4gWEwmPplXmNgl-EoftNh6Y5r-kGCDo1CczJ0yck&type=album"
-                  alt="rover"
-                />
-              </div>
-              <div className="card-body">
-                <h4>Внимание, ГТО!</h4>
-                <p>
-                  Появилась информация по ЗНАЧКАМ ГТО, которые до сих пор не
-                  вручены!!! Просьба, внимательно ознакомиться!
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  ШСК "Авангард"
-                </p>
-                <div className="user">
-                  <div className="user-info">
-                    <small>26 марта 2024</small>
+            <Link className="linkcard" to="/site-map">
+              <div className="card">
+                <div className="card-header">
+                  <img
+                    src="https://sun9-36.userapi.com/impg/l9s9tVmh426naqRcx6zefrK5WSMFQirDFEcXTg/27CuAmjccR8.jpg?size=807x538&quality=95&sign=71d6166cd6c7274ec7fb1b1d42386e83&c_uniq_tag=RZe4gWEwmPplXmNgl-EoftNh6Y5r-kGCDo1CczJ0yck&type=album"
+                    alt="rover"
+                  />
+                </div>
+                <div className="card-body">
+                  <h4>Внимание, ГТО!</h4>
+                  <p>
+                    Появилась информация по ЗНАЧКАМ ГТО, которые до сих пор не
+                    вручены!!! Просьба, внимательно ознакомиться!
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    ШСК "Авангард"
+                  </p>
+                  <div className="user">
+                    <div className="user-info">
+                      <small>26 марта 2024</small>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
             <div className="card">
               <div className="card-header">
                 <img
